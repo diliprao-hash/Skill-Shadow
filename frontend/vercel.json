@@ -1,6 +1,11 @@
 
+
 {
   "rewrites": [
+    {
+      "source": "/api/discovery/:path*",
+      "destination": "https://skill-shadow.onrender.com/discovery-lab/api/discovery/:path*"
+    },
     {
       "source": "/api/:path*",
       "destination": "https://skill-shadow.onrender.com/api/:path*"

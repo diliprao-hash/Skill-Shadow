@@ -483,3 +483,6 @@ install_roadmap(
     occupation_data=occupation_data,
     normalize_skill=normalize_skill
 )
+from discovery_lab.app.main import app as discovery_app
+
+app.mount("/discovery-lab", discovery_app)
