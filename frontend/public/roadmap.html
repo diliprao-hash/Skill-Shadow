@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#071324" />
+  <meta name="description" content="Explore detailed learning roadmaps for different careers, with skills, projects and progress tracking. Built for SkillShadow." />
+  <title>Career Roadmaps | SkillShadow</title>
+  <link rel="stylesheet" href="/career-roadmaps/roadmap.css" />
+  <script defer src="/career-roadmaps/roadmap.js"></script>
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="/" aria-label="SkillShadow — back to home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>Skill<span class="brand-alt">Shadow</span></span>
+      </a>
+      <nav aria-label="Main navigation" class="site-nav">
+        <a href="/">Home</a>
+        <span class="current" aria-current="page">Learning Roadmaps</span>
+      </nav>
+      <a href="/" class="back-link"><span aria-hidden="true">←</span> Back to SkillShadow</a>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="pulse-dot"></span> YOUR JOURNEY, MAPPED OUT</div>
+        <h1 id="hero-title">Every big career starts with <em>the next small step.</em></h1>
+        <p class="hero-copy">Search a career and explore its learning journey — from the foundations to advanced skills, hands-on projects, and professional readiness.</p>
+        <div class="search-wrap">
+          <label class="sr-only" for="career-search">Search careers</label>
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="career-search" type="search" autocomplete="off" placeholder="Search Data Science, Web Development, Doctor, Design…" spellcheck="false" />
+          <kbd class="search-hint">Search</kbd>
+        </div>
+        <p class="hero-note">Curriculum guides, not employment guarantees or official licensing requirements. Courses and technology evolve.</p>
+      </div>
+      <div class="hero-deco" aria-hidden="true">
+        <span class="hero-ring ring-1"></span><span class="hero-ring ring-2"></span><span class="hero-ring ring-3"></span>
+        <div class="hero-core"><span>✦</span><small>YOUR NEXT<br/>CHAPTER</small></div>
+        <span class="orbit-dot orbit-dot-a"></span><span class="orbit-dot orbit-dot-b"></span><span class="orbit-dot orbit-dot-c"></span>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Roadmap library statistics">
+      <div class="stat"><span id="stat-careers">—</span><small>CAREER PATHS</small></div>
+      <div class="stat"><span id="stat-modules">—</span><small>LEARNING MODULES</small></div>
+      <div class="stat"><span id="stat-topics">—</span><small>TOPIC CHECKLISTS</small></div>
+      <div class="stat stat-wide"><span>Explore. Learn. Grow.</span><small>ONE STEP AT A TIME</small></div>
+    </section>
+
+    <section class="workspace" aria-label="Career roadmaps explorer">
+      <aside class="sidebar panel" aria-label="Career library">
+        <div class="sidebar-heading">
+          <div><span class="overline">EXPLORE POSSIBILITIES</span><h2>Career library</h2></div>
+          <span class="count-pill" id="result-count">—</span>
+        </div>
+        <label class="field-label" for="category-filter">Browse by field</label>
+        <select id="category-filter"><option value="all">All career fields</option></select>
+        <div class="filter-line"><span id="filter-summary">Choose a career to begin</span><button type="button" id="clear-filters" class="plain-button">Clear</button></div>
+        <div id="career-list" class="career-list" aria-label="Available careers"></div>
+        <div class="sidebar-footer">Can't find a career? This library contains a curated set of roadmaps. New paths can be added to <code>roadmaps.json</code>.</div>
+      </aside>
+
+      <div class="details" id="details">
+        <div id="empty-view" class="empty panel">
+          <div class="empty-symbol" aria-hidden="true">✧</div>
+          <span class="overline">YOUR PATH BEGINS HERE</span>
+          <h2>Choose where you want to go.</h2>
+          <p>Search above or pick a career from the library. You'll see every learning stage and the topics to study, in order.</p>
+          <div class="empty-features"><span>✓ Detailed subjects</span><span>✓ Practice projects</span><span>✓ Personal progress</span></div>
+        </div>
+        <div id="loading-view" class="empty panel" role="status" hidden>
+          <div class="loading-spinner" aria-hidden="true"></div>
+          <h2>Preparing your roadmap…</h2>
+        </div>
+        <div id="error-view" class="empty panel" role="alert" hidden>
+          <div class="empty-symbol">!</div>
+          <h2>Couldn't load the roadmap data</h2>
+          <p id="error-message">Check that this file is inside your Vite public folder and your development server is running.</p>
+        </div>
+        <div id="roadmap-view" hidden>
+          <section class="path-banner panel" aria-labelledby="path-title">
+            <div class="path-topline"><span class="overline"><span class="tiny-star">✦</span> YOUR LEARNING JOURNEY</span><span id="path-category" class="category-badge"></span></div>
+            <h2 id="path-title"></h2>
+            <p id="path-summary" class="path-summary"></p>
+            <p id="path-note" class="path-note" hidden></p>
+            <div class="metric-grid">
+              <div><span class="metric-icon">◷</span><strong id="metric-weeks">—</strong><small>GUIDED WEEKS*</small></div>
+              <div><span class="metric-icon">▦</span><strong id="metric-stages">—</strong><small>LEARNING STAGES</small></div>
+              <div><span class="metric-icon">☑</span><strong id="metric-topics">—</strong><small>TOPIC CHECKLISTS</small></div>
+            </div>
+            <div class="progress-top"><span>My learning progress</span><strong id="progress-label">0%</strong></div>
+            <div class="progress-track" role="progressbar" id="progress-bar" aria-label="Roadmap progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="progress-fill"></span></div>
+            <div class="path-actions"><button class="action-button action-primary" type="button" id="expand-all">Expand all stages <span>↓</span></button><button class="action-button" type="button" id="print-path">Print roadmap ↗</button><button class="action-button action-muted" type="button" id="reset-progress">Reset progress</button></div>
+            <p class="path-caveat">*Suggested study time only. Actual pace depends on prior knowledge and learning hours. Topic completion is stored in this browser, not your account.</p>
+          </section>
+          <div class="timeline-heading"><div><span class="overline">THE COMPLETE LEARNING JOURNEY</span><h2>Your step-by-step roadmap</h2></div><span id="stage-count" class="stage-counter"></span></div>
+          <div id="stage-list" class="stage-list"></div>
+          <section class="capstone-panel panel"><div class="capstone-icon">✳</div><div><span class="overline">PROVE WHAT YOU CAN DO</span><h2>Portfolio & capstone ideas</h2><p>Use these projects to demonstrate skills from this learning path.</p><ul id="capstone-list"></ul></div></section>
+        </div>
+      </div>
+    </section>
+    <footer class="footer"><div><strong>✦ SkillShadow</strong> <span>Map the skills. Make the move.</span></div><small>Educational guidance only · Verify professional licensing and up-to-date requirements from official sources.</small></footer>
+  </main>
+</body>
+</html>

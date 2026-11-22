@@ -1,0 +1,48 @@
+role_id,title,onet_occupation_code,onet_occupation_title,domains,job_zone,custom_pathway,source_url
+SS-DATA-ANALYST,Data Analyst,15-2051.01,Business Intelligence Analysts,analytics; data_science,4,True,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.00,Data Scientist,15-2051.00,Data Scientists,data_science; analytics,4,False,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,Data Scientists,data_science; software,4,True,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.01,Business Intelligence Analyst,15-2051.01,Business Intelligence Analysts,analytics; business,4,False,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ENGINEER,Data Engineer,15-1243.01,Data Warehousing Specialists,data_engineering; analytics,4,True,https://www.onetonline.org/link/summary/15-1243.01
+15-1243.01,Data Warehousing Specialist,15-1243.01,Data Warehousing Specialists,data_engineering; analytics,4,False,https://www.onetonline.org/link/summary/15-1243.01
+15-1242.00,Database Administrator,15-1242.00,Database Administrators,data_engineering; network,4,False,https://www.onetonline.org/link/summary/15-1242.00
+15-1243.00,Database Architect,15-1243.00,Database Architects,data_engineering; software,4,False,https://www.onetonline.org/link/summary/15-1243.00
+15-2041.00,Statistician,15-2041.00,Statisticians,data_science; research,5,False,https://www.onetonline.org/link/summary/15-2041.00
+15-2031.00,Operations Research Analyst,15-2031.00,Operations Research Analysts,analytics; operations,5,False,https://www.onetonline.org/link/summary/15-2031.00
+15-1252.00,Software Developer,15-1252.00,Software Developers,software,4,False,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,Software Developers,software; web,4,True,https://www.onetonline.org/link/summary/15-1252.00
+SS-FRONTEND,Frontend Developer,15-1254.00,Web Developers,web; software,3,True,https://www.onetonline.org/link/summary/15-1254.00
+SS-FULLSTACK,Full Stack Developer,15-1252.00,Software Developers,web; software,4,True,https://www.onetonline.org/link/summary/15-1252.00
+15-1254.00,Web Developer,15-1254.00,Web Developers,web; software,3,False,https://www.onetonline.org/link/summary/15-1254.00
+SS-MOBILE,Mobile App Developer,15-1252.00,Software Developers,mobile; software,4,True,https://www.onetonline.org/link/summary/15-1252.00
+15-1253.00,Software QA Analyst and Tester,15-1253.00,Software Quality Assurance Analysts and Testers,qa; software,4,False,https://www.onetonline.org/link/summary/15-1253.00
+SS-QA-AUTO,Automation Test Engineer,15-1253.00,Software Quality Assurance Analysts and Testers,qa; software,4,True,https://www.onetonline.org/link/summary/15-1253.00
+SS-DEVOPS,DevOps Engineer,15-1299.08,Computer Systems Engineers/Architects,cloud; software,3,True,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD,Cloud Engineer,15-1299.08,Computer Systems Engineers/Architects,cloud; network,3,True,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD-ARCH,Cloud Solutions Architect,15-1299.08,Computer Systems Engineers/Architects,cloud; software,3,True,https://www.onetonline.org/link/summary/15-1299.08
+15-1212.00,Information Security Analyst,15-1212.00,Information Security Analysts,security; network,4,False,https://www.onetonline.org/link/summary/15-1212.00
+15-1299.04,Penetration Tester,15-1299.04,Penetration Testers,security,4,False,https://www.onetonline.org/link/summary/15-1299.04
+15-1299.05,Information Security Engineer,15-1299.05,Information Security Engineers,security; cloud,4,False,https://www.onetonline.org/link/summary/15-1299.05
+15-1299.06,Digital Forensics Analyst,15-1299.06,Digital Forensics Analysts,security,4,False,https://www.onetonline.org/link/summary/15-1299.06
+15-1241.00,Computer Network Architect,15-1241.00,Computer Network Architects,network; cloud,4,False,https://www.onetonline.org/link/summary/15-1241.00
+15-1244.00,Network and Systems Administrator,15-1244.00,Network and Computer Systems Administrators,network; cloud,3,False,https://www.onetonline.org/link/summary/15-1244.00
+15-1232.00,Computer User Support Specialist,15-1232.00,Computer User Support Specialists,network; software,3,False,https://www.onetonline.org/link/summary/15-1232.00
+SS-UIUX,UI/UX Designer,15-1255.00,Web and Digital Interface Designers,design; web,4,True,https://www.onetonline.org/link/summary/15-1255.00
+15-1255.00,Web and Digital Interface Designer,15-1255.00,Web and Digital Interface Designers,design; web,4,False,https://www.onetonline.org/link/summary/15-1255.00
+27-1024.00,Graphic Designer,27-1024.00,Graphic Designers,design,4,False,https://www.onetonline.org/link/summary/27-1024.00
+13-1161.01,Search Marketing Strategist,13-1161.01,Search Marketing Strategists,marketing,4,False,https://www.onetonline.org/link/summary/13-1161.01
+13-1161.00,Market Research Analyst,13-1161.00,Market Research Analysts and Marketing Specialists,marketing; analytics,4,False,https://www.onetonline.org/link/summary/13-1161.00
+13-2051.00,Financial Analyst,13-2051.00,Financial and Investment Analysts,finance; analytics,4,False,https://www.onetonline.org/link/summary/13-2051.00
+13-2011.00,Accountant and Auditor,13-2011.00,Accountants and Auditors,finance,4,False,https://www.onetonline.org/link/summary/13-2011.00
+SS-SUPPLY-CHAIN,Supply Chain Analyst,13-1081.02,Logistics Analysts,operations; analytics,4,True,https://www.onetonline.org/link/summary/13-1081.02
+17-2199.08,Robotics Engineer,17-2199.08,Robotics Engineers,robotics; software,4,False,https://www.onetonline.org/link/summary/17-2199.08
+19-1029.01,Bioinformatics Scientist,19-1029.01,Bioinformatics Scientists,bioinformatics; data_science,5,False,https://www.onetonline.org/link/summary/19-1029.01
+15-1299.07,Blockchain Engineer,15-1299.07,Blockchain Engineers,blockchain; software,4,False,https://www.onetonline.org/link/summary/15-1299.07
+15-1299.09,Information Technology Project Manager,15-1299.09,Information Technology Project Managers,management; business,4,False,https://www.onetonline.org/link/summary/15-1299.09
+SS-BUSINESS-ANALYST,Business Analyst,15-1211.00,Computer Systems Analysts,business; analytics,4,True,https://www.onetonline.org/link/summary/15-1211.00
+SS-NLP-ENGINEER,NLP Engineer,15-2051.00,Data Scientists,data_science; research,4,True,https://www.onetonline.org/link/summary/15-2051.00
+SS-CV-ENGINEER,Computer Vision Engineer,15-2051.00,Data Scientists,data_science; robotics,4,True,https://www.onetonline.org/link/summary/15-2051.00
+SS-DATA-VIZ,Data Visualization Specialist,15-2051.01,Business Intelligence Analysts,analytics; design,4,True,https://www.onetonline.org/link/summary/15-2051.01
+SS-PRODUCT-ANALYST,Product Analyst,15-2051.01,Business Intelligence Analysts,analytics; business,4,True,https://www.onetonline.org/link/summary/15-2051.01
+SS-JAVA-DEVELOPER,Java Developer,15-1252.00,Software Developers,software,4,True,https://www.onetonline.org/link/summary/15-1252.00
+SS-PYTHON-DEVELOPER,Python Developer,15-1252.00,Software Developers,software,4,True,https://www.onetonline.org/link/summary/15-1252.00

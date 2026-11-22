@@ -1,0 +1,34 @@
+/* Full-screen cinematic intro; no tap, loading, skip, or sound buttons. */
+.ss-intro {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  z-index: 99999;
+  overflow: hidden;
+  isolation: isolate;
+  background: #030a1c;
+  opacity: 1;
+  transition: opacity .6s ease;
+}
+.ss-intro--exiting { opacity: 0; pointer-events: none; }
+.ss-intro__video {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  background: #030a1c;
+}
+.ss-intro__vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom,rgba(1,6,23,.22),transparent 25%,transparent 75%,rgba(1,6,23,.3));
+}
+@media (prefers-reduced-motion: reduce) {
+  .ss-intro { transition: none; }
+}

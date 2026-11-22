@@ -1,0 +1,22 @@
+[
+  {"name":"Data analyst","skills":"SQL,Excel,Python,Pandas,Data Visualization","interests":"data analytics","acceptable_top3":["SS-DATA-ANALYST","15-2051.01","SS-DATA-VIZ"]},
+  {"name":"Data scientist","skills":"Python,Statistics,Machine Learning,SQL,Scikit-learn","interests":"data science","acceptable_top3":["15-2051.00","SS-ML-ENGINEER"]},
+  {"name":"Machine learning engineer","skills":"Python,Machine Learning,PyTorch,Model Deployment,Git,Docker","interests":"machine learning","acceptable_top3":["SS-ML-ENGINEER","15-2051.00"]},
+  {"name":"Business intelligence","skills":"SQL,Power BI,Tableau,Excel,DAX","interests":"business intelligence","acceptable_top3":["15-2051.01","SS-DATA-VIZ"]},
+  {"name":"Data engineering","skills":"Python,SQL,ETL,Data Pipelines,Apache Airflow","interests":"data engineering","acceptable_top3":["SS-DATA-ENGINEER","15-1243.01"]},
+  {"name":"Frontend","skills":"HTML,CSS,JavaScript,React,TypeScript","interests":"frontend","acceptable_top3":["SS-FRONTEND","SS-FULLSTACK","15-1254.00"]},
+  {"name":"Backend","skills":"Java,Spring Boot,SQL,API Development,Git","interests":"backend","acceptable_top3":["SS-BACKEND","15-1252.00"]},
+  {"name":"Full stack","skills":"JavaScript,React,Node.js,HTML,CSS,SQL","interests":"full stack","acceptable_top3":["SS-FULLSTACK","SS-FRONTEND"]},
+  {"name":"DevOps","skills":"Linux,Docker,Kubernetes,CI/CD,Git,Terraform","interests":"devops","acceptable_top3":["SS-DEVOPS","SS-CLOUD"]},
+  {"name":"Cloud engineer","skills":"AWS,Cloud Computing,Linux,Networking,Terraform","interests":"cloud computing","acceptable_top3":["SS-CLOUD","SS-CLOUD-ARCH"]},
+  {"name":"Cybersecurity","skills":"Cybersecurity,Network Security,Incident Response,Linux,Wireshark","interests":"cybersecurity","acceptable_top3":["15-1212.00","15-1299.05"]},
+  {"name":"Penetration testing","skills":"Penetration Testing,Linux,Burp Suite,Nmap,Vulnerability Assessment","interests":"cybersecurity","acceptable_top3":["15-1299.04"]},
+  {"name":"QA automation","skills":"Python,Selenium,Pytest,Automated Testing,API Testing","interests":"software testing","acceptable_top3":["SS-QA-AUTO","15-1253.00"]},
+  {"name":"UX designer","skills":"Figma,UX Research,Wireframing,Prototyping,UI Design","interests":"ui ux","acceptable_top3":["SS-UIUX","15-1255.00"]},
+  {"name":"Financial analyst","skills":"Excel,Financial Analysis,Financial Modeling,Accounting,Valuation","interests":"finance","acceptable_top3":["13-2051.00"]},
+  {"name":"Graphic designer","skills":"Adobe Photoshop,Adobe Illustrator,Typography,Graphic Design","interests":"graphic design","acceptable_top3":["27-1024.00"]},
+  {"name":"Statistician","skills":"R,Statistics,Probability,Hypothesis Testing,Regression","interests":"research","acceptable_top3":["15-2041.00"]},
+  {"name":"Supply chain","skills":"Excel,SQL,Supply Chain,Inventory Management,Forecasting","interests":"supply chain","acceptable_top3":["SS-SUPPLY-CHAIN"]},
+  {"name":"Computer vision","skills":"Python,Computer Vision,OpenCV,Deep Learning,PyTorch","interests":"machine learning","acceptable_top3":["SS-CV-ENGINEER"]},
+  {"name":"NLP","skills":"Python,NLP,Machine Learning,PyTorch,Text Preprocessing","interests":"data science","acceptable_top3":["SS-NLP-ENGINEER"]}
+]

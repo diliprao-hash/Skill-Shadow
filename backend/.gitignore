@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.env
+.env.local
+**/.env
+**/.env.local
+**/node_modules/
+**/.venv/
+**/__pycache__/
+*.pyc
+**/dist/
+skillshadow.db

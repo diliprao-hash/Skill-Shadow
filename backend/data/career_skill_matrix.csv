@@ -1,0 +1,451 @@
+role_id,career_title,occupation_code,skill,priority,editorial_weight_1_to_5,target_proficiency_1_to_3,onet_alignment,weight_source,occupation_source_url
+SS-DATA-ANALYST,Data Analyst,15-2051.01,sql,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ANALYST,Data Analyst,15-2051.01,excel,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ANALYST,Data Analyst,15-2051.01,python,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ANALYST,Data Analyst,15-2051.01,pandas,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ANALYST,Data Analyst,15-2051.01,data cleaning,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ANALYST,Data Analyst,15-2051.01,data visualization,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ANALYST,Data Analyst,15-2051.01,statistics,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ANALYST,Data Analyst,15-2051.01,power bi,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ANALYST,Data Analyst,15-2051.01,tableau,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ANALYST,Data Analyst,15-2051.01,matplotlib,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ANALYST,Data Analyst,15-2051.01,communication,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ANALYST,Data Analyst,15-2051.01,etl,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.00,Data Scientist,15-2051.00,python,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.00,Data Scientist,15-2051.00,statistics,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.00,Data Scientist,15-2051.00,machine learning,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.00,Data Scientist,15-2051.00,sql,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.00,Data Scientist,15-2051.00,pandas,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.00,Data Scientist,15-2051.00,data cleaning,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.00,Data Scientist,15-2051.00,scikit-learn,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.00,Data Scientist,15-2051.00,numpy,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.00,Data Scientist,15-2051.00,data visualization,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.00,Data Scientist,15-2051.00,feature engineering,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.00,Data Scientist,15-2051.00,matplotlib,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.00,Data Scientist,15-2051.00,deep learning,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,python,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,machine learning,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,scikit-learn,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,model deployment,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,software engineering,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,git,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,pytorch,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,tensorflow,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,docker,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,mlops,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,sql,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-ML-ENGINEER,Machine Learning Engineer,15-2051.00,fastapi,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+15-2051.01,Business Intelligence Analyst,15-2051.01,sql,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.01,Business Intelligence Analyst,15-2051.01,power bi,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.01,Business Intelligence Analyst,15-2051.01,tableau,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.01,Business Intelligence Analyst,15-2051.01,excel,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.01,Business Intelligence Analyst,15-2051.01,data visualization,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.01,Business Intelligence Analyst,15-2051.01,dashboard design,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.01,Business Intelligence Analyst,15-2051.01,data modeling,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.01,Business Intelligence Analyst,15-2051.01,python,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.01,Business Intelligence Analyst,15-2051.01,dax,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.01,Business Intelligence Analyst,15-2051.01,etl,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.01,Business Intelligence Analyst,15-2051.01,business analysis,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+15-2051.01,Business Intelligence Analyst,15-2051.01,communication,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-ENGINEER,Data Engineer,15-1243.01,sql,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+SS-DATA-ENGINEER,Data Engineer,15-1243.01,python,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+SS-DATA-ENGINEER,Data Engineer,15-1243.01,etl,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+SS-DATA-ENGINEER,Data Engineer,15-1243.01,data pipelines,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+SS-DATA-ENGINEER,Data Engineer,15-1243.01,data modeling,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+SS-DATA-ENGINEER,Data Engineer,15-1243.01,postgresql,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+SS-DATA-ENGINEER,Data Engineer,15-1243.01,apache spark,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+SS-DATA-ENGINEER,Data Engineer,15-1243.01,apache airflow,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+SS-DATA-ENGINEER,Data Engineer,15-1243.01,aws,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+SS-DATA-ENGINEER,Data Engineer,15-1243.01,docker,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+SS-DATA-ENGINEER,Data Engineer,15-1243.01,data warehousing,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+15-1243.01,Data Warehousing Specialist,15-1243.01,sql,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+15-1243.01,Data Warehousing Specialist,15-1243.01,data warehousing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+15-1243.01,Data Warehousing Specialist,15-1243.01,etl,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+15-1243.01,Data Warehousing Specialist,15-1243.01,data modeling,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+15-1243.01,Data Warehousing Specialist,15-1243.01,database design,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+15-1243.01,Data Warehousing Specialist,15-1243.01,python,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+15-1243.01,Data Warehousing Specialist,15-1243.01,apache spark,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+15-1243.01,Data Warehousing Specialist,15-1243.01,postgresql,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+15-1243.01,Data Warehousing Specialist,15-1243.01,tableau,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+15-1243.01,Data Warehousing Specialist,15-1243.01,power bi,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.01
+15-1242.00,Database Administrator,15-1242.00,sql,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1242.00
+15-1242.00,Database Administrator,15-1242.00,database administration,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1242.00
+15-1242.00,Database Administrator,15-1242.00,postgresql,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1242.00
+15-1242.00,Database Administrator,15-1242.00,mysql,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1242.00
+15-1242.00,Database Administrator,15-1242.00,backup and recovery,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1242.00
+15-1242.00,Database Administrator,15-1242.00,linux,core,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1242.00
+15-1242.00,Database Administrator,15-1242.00,performance tuning,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1242.00
+15-1242.00,Database Administrator,15-1242.00,security,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1242.00
+15-1242.00,Database Administrator,15-1242.00,oracle database,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1242.00
+15-1242.00,Database Administrator,15-1242.00,python,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1242.00
+15-1243.00,Database Architect,15-1243.00,database design,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.00
+15-1243.00,Database Architect,15-1243.00,sql,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.00
+15-1243.00,Database Architect,15-1243.00,data modeling,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.00
+15-1243.00,Database Architect,15-1243.00,data architecture,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.00
+15-1243.00,Database Architect,15-1243.00,postgresql,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.00
+15-1243.00,Database Architect,15-1243.00,cloud computing,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.00
+15-1243.00,Database Architect,15-1243.00,etl,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.00
+15-1243.00,Database Architect,15-1243.00,aws,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.00
+15-1243.00,Database Architect,15-1243.00,python,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.00
+15-1243.00,Database Architect,15-1243.00,data warehousing,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1243.00
+15-2041.00,Statistician,15-2041.00,statistics,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2041.00
+15-2041.00,Statistician,15-2041.00,probability,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2041.00
+15-2041.00,Statistician,15-2041.00,r,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2041.00
+15-2041.00,Statistician,15-2041.00,hypothesis testing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2041.00
+15-2041.00,Statistician,15-2041.00,regression,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2041.00
+15-2041.00,Statistician,15-2041.00,experimental design,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2041.00
+15-2041.00,Statistician,15-2041.00,python,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2041.00
+15-2041.00,Statistician,15-2041.00,spss,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2041.00
+15-2041.00,Statistician,15-2041.00,excel,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2041.00
+15-2041.00,Statistician,15-2041.00,data visualization,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2041.00
+15-2031.00,Operations Research Analyst,15-2031.00,optimization,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2031.00
+15-2031.00,Operations Research Analyst,15-2031.00,statistics,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2031.00
+15-2031.00,Operations Research Analyst,15-2031.00,python,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2031.00
+15-2031.00,Operations Research Analyst,15-2031.00,linear programming,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2031.00
+15-2031.00,Operations Research Analyst,15-2031.00,mathematics,core,5,3,listed_onet_essential_skill,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2031.00
+15-2031.00,Operations Research Analyst,15-2031.00,excel,core,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2031.00
+15-2031.00,Operations Research Analyst,15-2031.00,sql,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2031.00
+15-2031.00,Operations Research Analyst,15-2031.00,simulation,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2031.00
+15-2031.00,Operations Research Analyst,15-2031.00,r,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2031.00
+15-2031.00,Operations Research Analyst,15-2031.00,data visualization,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2031.00
+15-1252.00,Software Developer,15-1252.00,programming,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+15-1252.00,Software Developer,15-1252.00,software engineering,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+15-1252.00,Software Developer,15-1252.00,git,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+15-1252.00,Software Developer,15-1252.00,debugging,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+15-1252.00,Software Developer,15-1252.00,data structures,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+15-1252.00,Software Developer,15-1252.00,algorithms,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+15-1252.00,Software Developer,15-1252.00,python,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+15-1252.00,Software Developer,15-1252.00,java,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+15-1252.00,Software Developer,15-1252.00,javascript,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+15-1252.00,Software Developer,15-1252.00,sql,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+15-1252.00,Software Developer,15-1252.00,unit testing,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,python,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,java,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,api development,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,sql,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,git,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,backend development,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,databases,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,spring boot,supporting,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,fastapi,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,django,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,postgresql,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-BACKEND,Backend Developer,15-1252.00,docker,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-FRONTEND,Frontend Developer,15-1254.00,html,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+SS-FRONTEND,Frontend Developer,15-1254.00,css,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+SS-FRONTEND,Frontend Developer,15-1254.00,javascript,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+SS-FRONTEND,Frontend Developer,15-1254.00,react,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+SS-FRONTEND,Frontend Developer,15-1254.00,responsive design,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+SS-FRONTEND,Frontend Developer,15-1254.00,git,core,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+SS-FRONTEND,Frontend Developer,15-1254.00,typescript,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+SS-FRONTEND,Frontend Developer,15-1254.00,web accessibility,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+SS-FRONTEND,Frontend Developer,15-1254.00,frontend development,supporting,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+SS-FRONTEND,Frontend Developer,15-1254.00,figma,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+SS-FULLSTACK,Full Stack Developer,15-1252.00,javascript,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-FULLSTACK,Full Stack Developer,15-1252.00,html,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-FULLSTACK,Full Stack Developer,15-1252.00,css,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-FULLSTACK,Full Stack Developer,15-1252.00,react,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-FULLSTACK,Full Stack Developer,15-1252.00,node.js,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-FULLSTACK,Full Stack Developer,15-1252.00,api development,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-FULLSTACK,Full Stack Developer,15-1252.00,sql,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-FULLSTACK,Full Stack Developer,15-1252.00,typescript,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-FULLSTACK,Full Stack Developer,15-1252.00,postgresql,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-FULLSTACK,Full Stack Developer,15-1252.00,git,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-FULLSTACK,Full Stack Developer,15-1252.00,docker,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+15-1254.00,Web Developer,15-1254.00,html,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+15-1254.00,Web Developer,15-1254.00,css,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+15-1254.00,Web Developer,15-1254.00,javascript,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+15-1254.00,Web Developer,15-1254.00,web development,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+15-1254.00,Web Developer,15-1254.00,git,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+15-1254.00,Web Developer,15-1254.00,responsive design,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+15-1254.00,Web Developer,15-1254.00,react,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+15-1254.00,Web Developer,15-1254.00,php,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+15-1254.00,Web Developer,15-1254.00,sql,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+15-1254.00,Web Developer,15-1254.00,wordpress,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1254.00
+SS-MOBILE,Mobile App Developer,15-1252.00,mobile development,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-MOBILE,Mobile App Developer,15-1252.00,kotlin,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-MOBILE,Mobile App Developer,15-1252.00,android,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-MOBILE,Mobile App Developer,15-1252.00,git,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-MOBILE,Mobile App Developer,15-1252.00,api development,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-MOBILE,Mobile App Developer,15-1252.00,java,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-MOBILE,Mobile App Developer,15-1252.00,flutter,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-MOBILE,Mobile App Developer,15-1252.00,dart,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-MOBILE,Mobile App Developer,15-1252.00,react native,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-MOBILE,Mobile App Developer,15-1252.00,ui design,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+15-1253.00,Software QA Analyst and Tester,15-1253.00,software testing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+15-1253.00,Software QA Analyst and Tester,15-1253.00,test cases,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+15-1253.00,Software QA Analyst and Tester,15-1253.00,bug tracking,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+15-1253.00,Software QA Analyst and Tester,15-1253.00,manual testing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+15-1253.00,Software QA Analyst and Tester,15-1253.00,debugging,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+15-1253.00,Software QA Analyst and Tester,15-1253.00,sql,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+15-1253.00,Software QA Analyst and Tester,15-1253.00,selenium,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+15-1253.00,Software QA Analyst and Tester,15-1253.00,python,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+15-1253.00,Software QA Analyst and Tester,15-1253.00,jira,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+15-1253.00,Software QA Analyst and Tester,15-1253.00,api testing,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+SS-QA-AUTO,Automation Test Engineer,15-1253.00,python,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+SS-QA-AUTO,Automation Test Engineer,15-1253.00,selenium,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+SS-QA-AUTO,Automation Test Engineer,15-1253.00,pytest,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+SS-QA-AUTO,Automation Test Engineer,15-1253.00,automated testing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+SS-QA-AUTO,Automation Test Engineer,15-1253.00,api testing,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+SS-QA-AUTO,Automation Test Engineer,15-1253.00,git,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+SS-QA-AUTO,Automation Test Engineer,15-1253.00,javascript,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+SS-QA-AUTO,Automation Test Engineer,15-1253.00,playwright,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+SS-QA-AUTO,Automation Test Engineer,15-1253.00,ci/cd,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+SS-QA-AUTO,Automation Test Engineer,15-1253.00,jira,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1253.00
+SS-DEVOPS,DevOps Engineer,15-1299.08,linux,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-DEVOPS,DevOps Engineer,15-1299.08,docker,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-DEVOPS,DevOps Engineer,15-1299.08,kubernetes,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-DEVOPS,DevOps Engineer,15-1299.08,ci/cd,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-DEVOPS,DevOps Engineer,15-1299.08,git,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-DEVOPS,DevOps Engineer,15-1299.08,cloud computing,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-DEVOPS,DevOps Engineer,15-1299.08,aws,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-DEVOPS,DevOps Engineer,15-1299.08,terraform,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-DEVOPS,DevOps Engineer,15-1299.08,python,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-DEVOPS,DevOps Engineer,15-1299.08,bash,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-DEVOPS,DevOps Engineer,15-1299.08,monitoring,supporting,3,2,listed_onet_essential_skill,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD,Cloud Engineer,15-1299.08,aws,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD,Cloud Engineer,15-1299.08,cloud computing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD,Cloud Engineer,15-1299.08,linux,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD,Cloud Engineer,15-1299.08,networking,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD,Cloud Engineer,15-1299.08,terraform,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD,Cloud Engineer,15-1299.08,security,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD,Cloud Engineer,15-1299.08,azure,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD,Cloud Engineer,15-1299.08,docker,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD,Cloud Engineer,15-1299.08,kubernetes,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD,Cloud Engineer,15-1299.08,python,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD-ARCH,Cloud Solutions Architect,15-1299.08,cloud architecture,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD-ARCH,Cloud Solutions Architect,15-1299.08,aws,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD-ARCH,Cloud Solutions Architect,15-1299.08,networking,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD-ARCH,Cloud Solutions Architect,15-1299.08,security,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD-ARCH,Cloud Solutions Architect,15-1299.08,system design,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD-ARCH,Cloud Solutions Architect,15-1299.08,cloud computing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD-ARCH,Cloud Solutions Architect,15-1299.08,azure,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD-ARCH,Cloud Solutions Architect,15-1299.08,kubernetes,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD-ARCH,Cloud Solutions Architect,15-1299.08,terraform,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+SS-CLOUD-ARCH,Cloud Solutions Architect,15-1299.08,linux,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.08
+15-1212.00,Information Security Analyst,15-1212.00,cybersecurity,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1212.00
+15-1212.00,Information Security Analyst,15-1212.00,network security,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1212.00
+15-1212.00,Information Security Analyst,15-1212.00,incident response,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1212.00
+15-1212.00,Information Security Analyst,15-1212.00,linux,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1212.00
+15-1212.00,Information Security Analyst,15-1212.00,security monitoring,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1212.00
+15-1212.00,Information Security Analyst,15-1212.00,wireshark,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1212.00
+15-1212.00,Information Security Analyst,15-1212.00,siem,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1212.00
+15-1212.00,Information Security Analyst,15-1212.00,python,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1212.00
+15-1212.00,Information Security Analyst,15-1212.00,penetration testing,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1212.00
+15-1299.04,Penetration Tester,15-1299.04,penetration testing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.04
+15-1299.04,Penetration Tester,15-1299.04,linux,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.04
+15-1299.04,Penetration Tester,15-1299.04,network security,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.04
+15-1299.04,Penetration Tester,15-1299.04,burp suite,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.04
+15-1299.04,Penetration Tester,15-1299.04,vulnerability assessment,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.04
+15-1299.04,Penetration Tester,15-1299.04,python,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.04
+15-1299.04,Penetration Tester,15-1299.04,wireshark,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.04
+15-1299.04,Penetration Tester,15-1299.04,nmap,supporting,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.04
+15-1299.04,Penetration Tester,15-1299.04,web security,supporting,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.04
+15-1299.05,Information Security Engineer,15-1299.05,cybersecurity,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.05
+15-1299.05,Information Security Engineer,15-1299.05,security engineering,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.05
+15-1299.05,Information Security Engineer,15-1299.05,network security,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.05
+15-1299.05,Information Security Engineer,15-1299.05,linux,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.05
+15-1299.05,Information Security Engineer,15-1299.05,threat modeling,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.05
+15-1299.05,Information Security Engineer,15-1299.05,python,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.05
+15-1299.05,Information Security Engineer,15-1299.05,aws,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.05
+15-1299.05,Information Security Engineer,15-1299.05,siem,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.05
+15-1299.05,Information Security Engineer,15-1299.05,incident response,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.05
+15-1299.06,Digital Forensics Analyst,15-1299.06,digital forensics,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.06
+15-1299.06,Digital Forensics Analyst,15-1299.06,incident response,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.06
+15-1299.06,Digital Forensics Analyst,15-1299.06,computer forensics,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.06
+15-1299.06,Digital Forensics Analyst,15-1299.06,linux,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.06
+15-1299.06,Digital Forensics Analyst,15-1299.06,evidence handling,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.06
+15-1299.06,Digital Forensics Analyst,15-1299.06,wireshark,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.06
+15-1299.06,Digital Forensics Analyst,15-1299.06,python,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.06
+15-1299.06,Digital Forensics Analyst,15-1299.06,malware analysis,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.06
+15-1241.00,Computer Network Architect,15-1241.00,networking,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1241.00
+15-1241.00,Computer Network Architect,15-1241.00,network design,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1241.00
+15-1241.00,Computer Network Architect,15-1241.00,tcp/ip,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1241.00
+15-1241.00,Computer Network Architect,15-1241.00,routing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1241.00
+15-1241.00,Computer Network Architect,15-1241.00,network security,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1241.00
+15-1241.00,Computer Network Architect,15-1241.00,cisco,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1241.00
+15-1241.00,Computer Network Architect,15-1241.00,firewalls,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1241.00
+15-1241.00,Computer Network Architect,15-1241.00,cloud computing,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1241.00
+15-1241.00,Computer Network Architect,15-1241.00,linux,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1241.00
+15-1244.00,Network and Systems Administrator,15-1244.00,linux,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1244.00
+15-1244.00,Network and Systems Administrator,15-1244.00,networking,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1244.00
+15-1244.00,Network and Systems Administrator,15-1244.00,system administration,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1244.00
+15-1244.00,Network and Systems Administrator,15-1244.00,windows server,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1244.00
+15-1244.00,Network and Systems Administrator,15-1244.00,tcp/ip,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1244.00
+15-1244.00,Network and Systems Administrator,15-1244.00,bash,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1244.00
+15-1244.00,Network and Systems Administrator,15-1244.00,active directory,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1244.00
+15-1244.00,Network and Systems Administrator,15-1244.00,firewalls,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1244.00
+15-1244.00,Network and Systems Administrator,15-1244.00,python,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1244.00
+15-1232.00,Computer User Support Specialist,15-1232.00,troubleshooting,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1232.00
+15-1232.00,Computer User Support Specialist,15-1232.00,technical support,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1232.00
+15-1232.00,Computer User Support Specialist,15-1232.00,windows,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1232.00
+15-1232.00,Computer User Support Specialist,15-1232.00,networking,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1232.00
+15-1232.00,Computer User Support Specialist,15-1232.00,communication,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1232.00
+15-1232.00,Computer User Support Specialist,15-1232.00,linux,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1232.00
+15-1232.00,Computer User Support Specialist,15-1232.00,hardware,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1232.00
+15-1232.00,Computer User Support Specialist,15-1232.00,customer service,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1232.00
+SS-UIUX,UI/UX Designer,15-1255.00,figma,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+SS-UIUX,UI/UX Designer,15-1255.00,ui design,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+SS-UIUX,UI/UX Designer,15-1255.00,ux research,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+SS-UIUX,UI/UX Designer,15-1255.00,wireframing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+SS-UIUX,UI/UX Designer,15-1255.00,prototyping,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+SS-UIUX,UI/UX Designer,15-1255.00,user testing,supporting,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+SS-UIUX,UI/UX Designer,15-1255.00,html,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+SS-UIUX,UI/UX Designer,15-1255.00,css,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+SS-UIUX,UI/UX Designer,15-1255.00,design systems,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+15-1255.00,Web and Digital Interface Designer,15-1255.00,ui design,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+15-1255.00,Web and Digital Interface Designer,15-1255.00,figma,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+15-1255.00,Web and Digital Interface Designer,15-1255.00,html,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+15-1255.00,Web and Digital Interface Designer,15-1255.00,css,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+15-1255.00,Web and Digital Interface Designer,15-1255.00,wireframing,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+15-1255.00,Web and Digital Interface Designer,15-1255.00,accessibility,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+15-1255.00,Web and Digital Interface Designer,15-1255.00,javascript,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+15-1255.00,Web and Digital Interface Designer,15-1255.00,prototyping,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+15-1255.00,Web and Digital Interface Designer,15-1255.00,ux research,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1255.00
+27-1024.00,Graphic Designer,27-1024.00,graphic design,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/27-1024.00
+27-1024.00,Graphic Designer,27-1024.00,adobe photoshop,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/27-1024.00
+27-1024.00,Graphic Designer,27-1024.00,adobe illustrator,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/27-1024.00
+27-1024.00,Graphic Designer,27-1024.00,typography,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/27-1024.00
+27-1024.00,Graphic Designer,27-1024.00,visual communication,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/27-1024.00
+27-1024.00,Graphic Designer,27-1024.00,figma,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/27-1024.00
+27-1024.00,Graphic Designer,27-1024.00,branding,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/27-1024.00
+27-1024.00,Graphic Designer,27-1024.00,layout design,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/27-1024.00
+13-1161.01,Search Marketing Strategist,13-1161.01,seo,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.01
+13-1161.01,Search Marketing Strategist,13-1161.01,google analytics,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.01
+13-1161.01,Search Marketing Strategist,13-1161.01,digital marketing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.01
+13-1161.01,Search Marketing Strategist,13-1161.01,keyword research,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.01
+13-1161.01,Search Marketing Strategist,13-1161.01,content strategy,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.01
+13-1161.01,Search Marketing Strategist,13-1161.01,google ads,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.01
+13-1161.01,Search Marketing Strategist,13-1161.01,excel,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.01
+13-1161.01,Search Marketing Strategist,13-1161.01,data analysis,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.01
+13-1161.00,Market Research Analyst,13-1161.00,market research,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.00
+13-1161.00,Market Research Analyst,13-1161.00,statistics,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.00
+13-1161.00,Market Research Analyst,13-1161.00,excel,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.00
+13-1161.00,Market Research Analyst,13-1161.00,survey design,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.00
+13-1161.00,Market Research Analyst,13-1161.00,data analysis,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.00
+13-1161.00,Market Research Analyst,13-1161.00,sql,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.00
+13-1161.00,Market Research Analyst,13-1161.00,python,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.00
+13-1161.00,Market Research Analyst,13-1161.00,power bi,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.00
+13-1161.00,Market Research Analyst,13-1161.00,communication,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1161.00
+13-2051.00,Financial Analyst,13-2051.00,financial analysis,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2051.00
+13-2051.00,Financial Analyst,13-2051.00,excel,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2051.00
+13-2051.00,Financial Analyst,13-2051.00,financial modeling,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2051.00
+13-2051.00,Financial Analyst,13-2051.00,accounting,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2051.00
+13-2051.00,Financial Analyst,13-2051.00,statistics,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2051.00
+13-2051.00,Financial Analyst,13-2051.00,sql,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2051.00
+13-2051.00,Financial Analyst,13-2051.00,power bi,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2051.00
+13-2051.00,Financial Analyst,13-2051.00,python,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2051.00
+13-2051.00,Financial Analyst,13-2051.00,valuation,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2051.00
+13-2011.00,Accountant and Auditor,13-2011.00,accounting,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2011.00
+13-2011.00,Accountant and Auditor,13-2011.00,excel,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2011.00
+13-2011.00,Accountant and Auditor,13-2011.00,financial reporting,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2011.00
+13-2011.00,Accountant and Auditor,13-2011.00,bookkeeping,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2011.00
+13-2011.00,Accountant and Auditor,13-2011.00,auditing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2011.00
+13-2011.00,Accountant and Auditor,13-2011.00,quickbooks,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2011.00
+13-2011.00,Accountant and Auditor,13-2011.00,tally,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2011.00
+13-2011.00,Accountant and Auditor,13-2011.00,taxation,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-2011.00
+SS-SUPPLY-CHAIN,Supply Chain Analyst,13-1081.02,excel,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1081.02
+SS-SUPPLY-CHAIN,Supply Chain Analyst,13-1081.02,sql,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1081.02
+SS-SUPPLY-CHAIN,Supply Chain Analyst,13-1081.02,supply chain,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1081.02
+SS-SUPPLY-CHAIN,Supply Chain Analyst,13-1081.02,inventory management,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1081.02
+SS-SUPPLY-CHAIN,Supply Chain Analyst,13-1081.02,forecasting,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1081.02
+SS-SUPPLY-CHAIN,Supply Chain Analyst,13-1081.02,python,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1081.02
+SS-SUPPLY-CHAIN,Supply Chain Analyst,13-1081.02,power bi,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1081.02
+SS-SUPPLY-CHAIN,Supply Chain Analyst,13-1081.02,optimization,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/13-1081.02
+17-2199.08,Robotics Engineer,17-2199.08,robotics,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/17-2199.08
+17-2199.08,Robotics Engineer,17-2199.08,python,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/17-2199.08
+17-2199.08,Robotics Engineer,17-2199.08,c++,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/17-2199.08
+17-2199.08,Robotics Engineer,17-2199.08,control systems,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/17-2199.08
+17-2199.08,Robotics Engineer,17-2199.08,ros,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/17-2199.08
+17-2199.08,Robotics Engineer,17-2199.08,computer vision,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/17-2199.08
+17-2199.08,Robotics Engineer,17-2199.08,embedded systems,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/17-2199.08
+17-2199.08,Robotics Engineer,17-2199.08,linux,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/17-2199.08
+19-1029.01,Bioinformatics Scientist,19-1029.01,bioinformatics,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/19-1029.01
+19-1029.01,Bioinformatics Scientist,19-1029.01,python,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/19-1029.01
+19-1029.01,Bioinformatics Scientist,19-1029.01,r,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/19-1029.01
+19-1029.01,Bioinformatics Scientist,19-1029.01,statistics,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/19-1029.01
+19-1029.01,Bioinformatics Scientist,19-1029.01,genomics,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/19-1029.01
+19-1029.01,Bioinformatics Scientist,19-1029.01,linux,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/19-1029.01
+19-1029.01,Bioinformatics Scientist,19-1029.01,machine learning,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/19-1029.01
+19-1029.01,Bioinformatics Scientist,19-1029.01,sql,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/19-1029.01
+15-1299.07,Blockchain Engineer,15-1299.07,blockchain,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.07
+15-1299.07,Blockchain Engineer,15-1299.07,solidity,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.07
+15-1299.07,Blockchain Engineer,15-1299.07,smart contracts,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.07
+15-1299.07,Blockchain Engineer,15-1299.07,javascript,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.07
+15-1299.07,Blockchain Engineer,15-1299.07,security,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.07
+15-1299.07,Blockchain Engineer,15-1299.07,ethereum,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.07
+15-1299.07,Blockchain Engineer,15-1299.07,node.js,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.07
+15-1299.07,Blockchain Engineer,15-1299.07,git,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.07
+15-1299.09,Information Technology Project Manager,15-1299.09,project management,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.09
+15-1299.09,Information Technology Project Manager,15-1299.09,agile,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.09
+15-1299.09,Information Technology Project Manager,15-1299.09,communication,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.09
+15-1299.09,Information Technology Project Manager,15-1299.09,risk management,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.09
+15-1299.09,Information Technology Project Manager,15-1299.09,jira,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.09
+15-1299.09,Information Technology Project Manager,15-1299.09,scrum,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.09
+15-1299.09,Information Technology Project Manager,15-1299.09,excel,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.09
+15-1299.09,Information Technology Project Manager,15-1299.09,stakeholder management,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1299.09
+SS-BUSINESS-ANALYST,Business Analyst,15-1211.00,business analysis,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1211.00
+SS-BUSINESS-ANALYST,Business Analyst,15-1211.00,requirements gathering,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1211.00
+SS-BUSINESS-ANALYST,Business Analyst,15-1211.00,excel,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1211.00
+SS-BUSINESS-ANALYST,Business Analyst,15-1211.00,sql,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1211.00
+SS-BUSINESS-ANALYST,Business Analyst,15-1211.00,communication,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1211.00
+SS-BUSINESS-ANALYST,Business Analyst,15-1211.00,power bi,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1211.00
+SS-BUSINESS-ANALYST,Business Analyst,15-1211.00,process modeling,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1211.00
+SS-BUSINESS-ANALYST,Business Analyst,15-1211.00,jira,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1211.00
+SS-BUSINESS-ANALYST,Business Analyst,15-1211.00,data visualization,supporting,2,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1211.00
+SS-NLP-ENGINEER,NLP Engineer,15-2051.00,python,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-NLP-ENGINEER,NLP Engineer,15-2051.00,nlp,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-NLP-ENGINEER,NLP Engineer,15-2051.00,machine learning,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-NLP-ENGINEER,NLP Engineer,15-2051.00,pytorch,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-NLP-ENGINEER,NLP Engineer,15-2051.00,text preprocessing,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-NLP-ENGINEER,NLP Engineer,15-2051.00,transformers,supporting,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-NLP-ENGINEER,NLP Engineer,15-2051.00,hugging face,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-NLP-ENGINEER,NLP Engineer,15-2051.00,deep learning,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-NLP-ENGINEER,NLP Engineer,15-2051.00,model deployment,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-CV-ENGINEER,Computer Vision Engineer,15-2051.00,python,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-CV-ENGINEER,Computer Vision Engineer,15-2051.00,computer vision,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-CV-ENGINEER,Computer Vision Engineer,15-2051.00,opencv,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-CV-ENGINEER,Computer Vision Engineer,15-2051.00,deep learning,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-CV-ENGINEER,Computer Vision Engineer,15-2051.00,pytorch,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-CV-ENGINEER,Computer Vision Engineer,15-2051.00,tensorflow,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-CV-ENGINEER,Computer Vision Engineer,15-2051.00,image processing,supporting,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-CV-ENGINEER,Computer Vision Engineer,15-2051.00,model deployment,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.00
+SS-DATA-VIZ,Data Visualization Specialist,15-2051.01,data visualization,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-VIZ,Data Visualization Specialist,15-2051.01,tableau,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-VIZ,Data Visualization Specialist,15-2051.01,power bi,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-VIZ,Data Visualization Specialist,15-2051.01,excel,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-VIZ,Data Visualization Specialist,15-2051.01,dashboard design,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-VIZ,Data Visualization Specialist,15-2051.01,sql,supporting,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-VIZ,Data Visualization Specialist,15-2051.01,plotly,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-VIZ,Data Visualization Specialist,15-2051.01,python,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-DATA-VIZ,Data Visualization Specialist,15-2051.01,storytelling,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-PRODUCT-ANALYST,Product Analyst,15-2051.01,sql,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-PRODUCT-ANALYST,Product Analyst,15-2051.01,product analytics,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-PRODUCT-ANALYST,Product Analyst,15-2051.01,statistics,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-PRODUCT-ANALYST,Product Analyst,15-2051.01,experimentation,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-PRODUCT-ANALYST,Product Analyst,15-2051.01,data visualization,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-PRODUCT-ANALYST,Product Analyst,15-2051.01,python,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-PRODUCT-ANALYST,Product Analyst,15-2051.01,excel,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-PRODUCT-ANALYST,Product Analyst,15-2051.01,amplitude,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-PRODUCT-ANALYST,Product Analyst,15-2051.01,cohort analysis,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-2051.01
+SS-JAVA-DEVELOPER,Java Developer,15-1252.00,java,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-JAVA-DEVELOPER,Java Developer,15-1252.00,object oriented programming,core,5,3,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-JAVA-DEVELOPER,Java Developer,15-1252.00,spring boot,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-JAVA-DEVELOPER,Java Developer,15-1252.00,sql,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-JAVA-DEVELOPER,Java Developer,15-1252.00,api development,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-JAVA-DEVELOPER,Java Developer,15-1252.00,git,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-JAVA-DEVELOPER,Java Developer,15-1252.00,maven,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-JAVA-DEVELOPER,Java Developer,15-1252.00,junit,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-JAVA-DEVELOPER,Java Developer,15-1252.00,postgresql,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-JAVA-DEVELOPER,Java Developer,15-1252.00,microservices,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-PYTHON-DEVELOPER,Python Developer,15-1252.00,python,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-PYTHON-DEVELOPER,Python Developer,15-1252.00,api development,core,5,3,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-PYTHON-DEVELOPER,Python Developer,15-1252.00,git,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-PYTHON-DEVELOPER,Python Developer,15-1252.00,debugging,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-PYTHON-DEVELOPER,Python Developer,15-1252.00,sql,core,4,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-PYTHON-DEVELOPER,Python Developer,15-1252.00,software engineering,core,4,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-PYTHON-DEVELOPER,Python Developer,15-1252.00,fastapi,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-PYTHON-DEVELOPER,Python Developer,15-1252.00,django,supporting,3,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-PYTHON-DEVELOPER,Python Developer,15-1252.00,flask,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-PYTHON-DEVELOPER,Python Developer,15-1252.00,pytest,supporting,3,2,editorial_only,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00
+SS-PYTHON-DEVELOPER,Python Developer,15-1252.00,postgresql,supporting,2,2,listed_onet_software,SkillShadow editorial curation,https://www.onetonline.org/link/summary/15-1252.00

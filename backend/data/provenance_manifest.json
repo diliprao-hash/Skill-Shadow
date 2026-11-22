@@ -1,0 +1,16 @@
+{
+  "package": "SkillShadow curated recommendation upgrade",
+  "version": "1.0.0",
+  "generated_on": "2026-11-22",
+  "source": "User-provided O*NET-derived career_profiles(2).jsonl",
+  "source_reference": "https://www.onetcenter.org/database.html",
+  "career_pathways": 47,
+  "official_onet_role_titles": 27,
+  "custom_skillshadow_pathways": 20,
+  "curated_skill_mappings": 450,
+  "direct_onet_name_alignment": 180,
+  "editorial_only_skill_mappings": 270,
+  "onet_essential_and_knowledge_evidence_rows": 552,
+  "evaluation_case_count": 20,
+  "not_measured": "Real-world recommendation accuracy or hiring outcomes"
+}
