@@ -232,7 +232,7 @@ return (
             <button className="ss-mobile-toggle" onClick={() => setMobile(!mobile)} aria-label="Toggle navigation">{mobile ? <X/> : <Menu/>}</button>
           </div>
         </div>
-        {mobile && <nav className="ss-mobile-nav" aria-label="Mobile navigation">
+        mobile && <nav className="ss-mobile-nav" aria-label="Mobile navigation">
           {([['home','Home'], ['careers','Career Paths'], ['jobs','Opportunities'], ['saved','Saved'], ['profile','My Profile']] as [Page,string][]).map(([p,label]) => <button key={p} onClick={() => navigate(p)}>{label}<ChevronRight size={17}/></button>)}
           <a href="/roadmap.html">Learning Roadmap <Route size={17}/></a>
         </nav>}
