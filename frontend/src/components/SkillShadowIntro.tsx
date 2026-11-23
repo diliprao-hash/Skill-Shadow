@@ -1,121 +1,112 @@
-import { useEffect, useRef, useState } from "react";
-import "./SkillShadowIntro.css";
 
-export type SkillShadowIntroProps = {
-  /** Called after the intro ends, or immediately when the intro is skipped by its settings. */
+import { useEffect, useRef, useState } from "react";
+
+type Props = {
   onComplete?: () => void;
-  /** Default: show on mobile widths (up to 768px) only. */
   mobileOnly?: boolean;
-  /** Default: play once per browser tab/session. Disable while testing. */
   playOncePerSession?: boolean;
 };
 
-const STORAGE_KEY = "skillshadow-fast-intro-v2";
-const INTRO_DURATION_MS = 3250; // matches the exit animation in CSS
-
-/** Lightweight mobile intro: CSS transforms + opacity, no frame-by-frame React updates. */
 export default function SkillShadowIntro({
   onComplete,
-  mobileOnly = true,
+  mobileOnly = false,
   playOncePerSession = true,
-}: SkillShadowIntroProps) {
-  const [visible, setVisible] = useState(false);
-  const done = useRef(false);
-  const onCompleteRef = useRef(onComplete);
+}: Props) {
+  const [visible, setVisible] = useState(() => {
+    if (typeof window === "undefined") return false;
 
-  useEffect(() => {
-    onCompleteRef.current = onComplete;
-  }, [onComplete]);
+    if (mobileOnly && window.innerWidth > 768) {
+      return false;
+    }
 
-  useEffect(() => {
-    const complete = () => {
-      if (done.current) return;
-      done.current = true;
-      onCompleteRef.current?.();
-    };
+    try {
+      if (
+        playOncePerSession &&
+        sessionStorage.getItem("skillshadow-video-played") === "yes"
+      ) {
+        return false;
+      }
+    } catch {
+      // Continue if storage is unavailable.
+    }
 
-    const shouldShowOnDevice = !mobileOnly || window.matchMedia("(max-width: 768px)").matches;
-    let alreadyPlayed = false;
+    return true;
+  });
+
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const finished = useRef(false);
+
+  const isMobile =
+    typeof window !== "undefined" &&
+    window.matchMedia("(max-width: 768px)").matches;
+
+  const videoSource = isMobile
+    ? "/videos/skillshadow-intro-mobile.mp4"
+    : "/videos/skillshadow-intro.mp4";
+
+  const finish = () => {
+    if (finished.current) return;
+    finished.current = true;
+
     if (playOncePerSession) {
       try {
-        alreadyPlayed = window.sessionStorage.getItem(STORAGE_KEY) === "1";
+        sessionStorage.setItem("skillshadow-video-played", "yes");
       } catch {
-        // Private browsing may restrict storage; animation still works.
+        // Storage may be unavailable.
       }
     }
 
-    if (!shouldShowOnDevice || alreadyPlayed) {
-      complete();
-      return;
+    setVisible(false);
+    onComplete?.();
+  };
+
+  useEffect(() => {
+    if (!visible) return;
+
+    const video = videoRef.current;
+
+    if (video) {
+      video.muted = true;
+      video.play().catch(() => finish());
     }
 
-    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const previousOverflow = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    setVisible(true);
+    const timeout = window.setTimeout(() => {
+      finish();
+    }, 20000);
 
-    const timer = window.setTimeout(() => {
-      if (playOncePerSession) {
-        try {
-          window.sessionStorage.setItem(STORAGE_KEY, "1");
-        } catch {
-          // Ignore unavailable browser storage.
-        }
-      }
-      document.body.style.overflow = previousOverflow;
-      setVisible(false);
-      complete();
-    }, reduceMotion ? 800 : INTRO_DURATION_MS);
-
-    return () => {
-      window.clearTimeout(timer);
-      document.body.style.overflow = previousOverflow;
-    };
-  }, [mobileOnly, playOncePerSession]);
+    return () => window.clearTimeout(timeout);
+  }, [visible]);
 
   if (!visible) return null;
 
   return (
-    <div className="ss-fi" role="status" aria-label="Opening SkillShadow">
-      <div className="ss-fi__ambient" aria-hidden="true" />
-      <div className="ss-fi__mesh" aria-hidden="true" />
-      <div className="ss-fi__flash" aria-hidden="true" />
-
-      <div className="ss-fi__top" aria-hidden="true">
-        <span className="ss-fi__micro-mark">S<span>✦</span>S</span>
-        <span>THE FUTURE IS YOURS</span>
-      </div>
-
-      <main className="ss-fi__main">
-        <div className="ss-fi__emblem" aria-hidden="true">
-          <div className="ss-fi__ring ss-fi__ring--one" />
-          <div className="ss-fi__ring ss-fi__ring--two" />
-          <div className="ss-fi__mark-glow" />
-          <svg className="ss-fi__mark" viewBox="0 0 120 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M60 6 111 42 60 134 9 42 60 6Z" stroke="currentColor" strokeWidth="3" />
-            <path d="M9 42 60 68 111 42M60 68V134M29 43 60 19 91 43 60 68 29 43Z" stroke="currentColor" strokeWidth="2" />
-            <path d="M60 19V68" stroke="currentColor" strokeWidth="2" opacity=".55" />
-          </svg>
-          <span className="ss-fi__orbit-star ss-fi__orbit-star--one" />
-          <span className="ss-fi__orbit-star ss-fi__orbit-star--two" />
-        </div>
-
-        <div className="ss-fi__copy">
-          <div className="ss-fi__message ss-fi__message--first" aria-hidden="true">
-            <p className="ss-fi__overline">YOU HAVE MORE IN YOU</p>
-            <h1>FIND YOUR <span>EDGE.</span></h1>
-          </div>
-          <div className="ss-fi__message ss-fi__message--brand">
-            <p className="ss-fi__overline">INTRODUCING</p>
-            <h1>Skill<span>Shadow</span><i>.</i></h1>
-            <p className="ss-fi__tagline">DISCOVER YOUR SKILLS. UNLOCK YOUR FUTURE.</p>
-          </div>
-        </div>
-      </main>
-
-      <div className="ss-fi__bottom" aria-hidden="true">
-        <span>DISCOVER <b>✦</b> EVOLVE <b>✦</b> ACHIEVE</span>
-      </div>
+    <div
+      style={{
+        position: "fixed",
+        inset: 0,
+        width: "100%",
+        height: "100dvh",
+        zIndex: 99999,
+        background: "black",
+        overflow: "hidden",
+      }}
+    >
+      <video
+        ref={videoRef}
+        src={videoSource}
+        autoPlay
+        muted
+        playsInline
+        preload="auto"
+        onEnded={finish}
+        onError={finish}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          display: "block",
+        }}
+      />
     </div>
   );
 }
