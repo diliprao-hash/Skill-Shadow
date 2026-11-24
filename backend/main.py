@@ -83,12 +83,13 @@ class ProfileInput(BaseModel):
     education:str=Field(default='',max_length=150)
 class CareerSave(BaseModel):
     occupation_code:str
-
 app=FastAPI(title='SkillShadow API',version='1.0.0')
 from backend_addon.curated_api import router as curated_router
 app.include_router(curated_router)
 from onet_analytics.router import router as onet_analytics_router
 app.include_router(onet_analytics_router)
+from career_assessments.router import router as career_assessments_router
+app.include_router(career_assessments_router)
 origins=[x.strip() for x in os.getenv('CORS_ORIGINS','http://localhost:5173').split(',') if x.strip()]
 app.add_middleware(CORSMiddleware,allow_origins=origins,allow_credentials=True,allow_methods=['GET','POST','PUT','DELETE'],allow_headers=['Authorization','Content-Type'])
 

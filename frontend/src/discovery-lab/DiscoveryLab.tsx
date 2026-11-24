@@ -147,6 +147,36 @@ export default function DiscoveryLab() {
               )}
             </section>
 
+<section className="ss-section" aria-label="Career-specific assessments">
+  <div className="ss-section-heading">
+    <div>
+      <div className="ss-overline">
+        ASSESS THE SKILLS YOU'RE LEARNING
+      </div>
+      <h2>Career-specific assessments</h2>
+      <p>
+        Take practice tests in Python, SQL, UPSC
+        subjects, or medical foundations.
+        Choose a career and subject to begin.
+      </p>
+    </div>
+  </div>
+
+  <a
+    className="ss-primary"
+    href="/career-assessment.html"
+    style={{
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 10,
+      textDecoration: 'none'
+    }}
+  >
+    Explore career tests
+    <Glyph name="arrow" size={17}/>
+  </a>
+</section>
+
             <section className="ss-how"><div className="ss-how-intro"><div className="ss-overline">HOW IT WORKS</div><h2>Understand your<br/><em>thinking style.</em></h2></div><div className="ss-feature-grid">{featureCards.map(feature => <div className="ss-feature" key={feature.title}><div className="ss-feature-icon"><Glyph name={feature.icon} size={20}/></div><h3>{feature.title}</h3><p>{feature.desc}</p></div>)}</div></section>
             <footer className="ss-footer">Built for exploration, not formal skill certification. Future career matches will incorporate interests, education and occupational data.</footer>
           </main>
