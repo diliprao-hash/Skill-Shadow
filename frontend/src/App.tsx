@@ -3,12 +3,16 @@ import DiscoveryLab from "./discovery-lab/DiscoveryLab";
 import "./discovery-lab/discovery.css";
 import { useEffect, useMemo, useState, type FormEvent } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+
 import {
-  ArrowRight, ArrowUpRight, Bookmark, BookmarkCheck, BriefcaseBusiness,
-  Check, ChevronRight, Compass, Database, ExternalLink, GraduationCap,
-  Layers3, Loader2, LockKeyhole, LogOut, Mail, MapPin, Menu,
-  Orbit, Plus, Route, Search, ShieldCheck, Sparkles, Target, UserRound, X
+  ArrowRight, ArrowUpRight, Bookmark, BookmarkCheck,
+  BriefcaseBusiness, Check, ChevronRight, Compass,
+  Database, ExternalLink, FlaskConical, GraduationCap,
+  Layers3, Loader2, LockKeyhole, LogOut, Mail,
+  MapPin, Menu, Orbit, Plus, Route, Search,
+  ShieldCheck, Sparkles, Target, UserRound, X
 } from 'lucide-react';
+
 import CareerPaths, { scorePercent, type Career, type Profile } from './CareerPaths';
 import './style.css';
 
@@ -232,10 +236,31 @@ return (
             <button className="ss-mobile-toggle" onClick={() => setMobile(!mobile)} aria-label="Toggle navigation">{mobile ? <X/> : <Menu/>}</button>
           </div>
         </div>
-      {mobile && <nav className="ss-mobile-nav" aria-label="Mobile navigation">
-          {([['home','Home'], ['careers','Career Paths'], ['jobs','Opportunities'], ['saved','Saved'], ['profile','My Profile']] as [Page,string][]).map(([p,label]) => <button key={p} onClick={() => navigate(p)}>{label}<ChevronRight size={17}/></button>)}
-          <a href="/roadmap.html">Learning Roadmap <Route size={17}/></a>
-        </nav>}
+      
+{mobile && (
+  <nav className="ss-mobile-nav" aria-label="Mobile navigation">
+    {([
+      ['home', 'Home'],
+      ['careers', 'Career Paths'],
+      ['jobs', 'Opportunities'],
+      ['saved', 'Saved'],
+      ['profile', 'My Profile'],
+      ['discovery', 'Discovery Lab']
+    ] as [Page, string][]).map(([p, label]) => (
+      <button key={p} onClick={() => navigate(p)}>
+        {p === 'discovery' && <FlaskConical size={17} />}
+        {label}
+        <ChevronRight size={17} />
+      </button>
+    ))}
+
+    <a href="/roadmap.html">
+      Learning Roadmap
+      <Route size={17} />
+    </a>
+  </nav>
+)}
+
       </header>
 
       <AnimatePresence mode="wait">
