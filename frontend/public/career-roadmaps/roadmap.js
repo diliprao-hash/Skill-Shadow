@@ -1,10 +1,11 @@
-/* SkillShadow Career Roadmaps — no third-party JS dependencies.
+* SkillShadow Career Roadmaps — no third-party JS dependencies.
    Data source: /career-roadmaps/roadmaps.json.
    Progress is stored locally PER CAREER, not in the SkillShadow backend. */
 (() => {
   'use strict';
   const dataUrl = '/career-roadmaps/roadmaps.json';
   const storagePrefix = 'skillshadow_roadmap_progress_v1:';
+  const assessedModules = new Set(['python','sql','india-cse-prelims','india-medical-mbbs']);
   const $ = (id) => document.getElementById(id);
   const state = { data: null, selected: null, category: 'all', query: '', expanded: new Set(), progress: new Set() };
   const escapeHTML = (str) => String(str ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
@@ -110,6 +111,7 @@
               return `<label class="topic-row ${done ? 'checked' : ''}"><input type="checkbox" data-topic="${escapeHTML(key)}" ${done?'checked':''}/><span class="topic-content"><span class="topic-name">${escapeHTML(t.title)}</span>${t.details.length ? `<span class="topic-details">${t.details.map(escapeHTML).join(' · ')}</span>`:''}</span></label>`;
             }).join('')}</div>
             <div class="practice-box"><span class="practice-symbol" aria-hidden="true">✧</span><div><strong>HANDS-ON PRACTICE</strong><p>${escapeHTML(mod.practice)}</p></div></div>
+            ${assessedModules.has(mod.id) ? `<p style="margin:16px 0 2px"><a class="action-button action-primary" href="/career-assessment.html?career=${encodeURIComponent(c.slug)}&module=${encodeURIComponent(mod.id)}">Take subject assessment ↗</a></p>` : ''}
           </div>
         </section></article>`;
     }).join('');
