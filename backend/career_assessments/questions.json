@@ -1,0 +1,764 @@
+{
+  "python-basics": {
+    "title": "Python Foundations",
+    "module_id": "python",
+    "description": "Python syntax, types, collections and core programming concepts.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which Python type is mutable?",
+        "options": [
+          "tuple",
+          "str",
+          "list",
+          "int"
+        ],
+        "answer_index": 2,
+        "explanation": "A list can be changed after creation; tuples, strings and integers cannot."
+      },
+      {
+        "id": 2,
+        "question": "What does len([4, 5, 6]) return?",
+        "options": [
+          "2",
+          "3",
+          "6",
+          "Error"
+        ],
+        "answer_index": 1,
+        "explanation": "The list contains three elements."
+      },
+      {
+        "id": 3,
+        "question": "Which keyword starts a function definition?",
+        "options": [
+          "func",
+          "def",
+          "function",
+          "lambda"
+        ],
+        "answer_index": 1,
+        "explanation": "Python uses def to define a named function."
+      },
+      {
+        "id": 4,
+        "question": "What is the result of 7 // 2?",
+        "options": [
+          "3.5",
+          "4",
+          "3",
+          "2"
+        ],
+        "answer_index": 2,
+        "explanation": "// performs floor division; seven divided by two rounds down to three."
+      },
+      {
+        "id": 5,
+        "question": "What does a Python dictionary store?",
+        "options": [
+          "Only ordered numbers",
+          "Key-value pairs",
+          "Only text",
+          "Unique unkeyed items"
+        ],
+        "answer_index": 1,
+        "explanation": "Dictionaries associate unique keys with values."
+      },
+      {
+        "id": 6,
+        "question": "Which expression creates a set?",
+        "options": [
+          "{1, 2, 2}",
+          "[1, 2, 2]",
+          "(1, 2, 2)",
+          "\"1, 2\""
+        ],
+        "answer_index": 0,
+        "explanation": "Curly braces with values create a set; repeated values are deduplicated."
+      },
+      {
+        "id": 7,
+        "question": "Which statement handles an exception?",
+        "options": [
+          "catch/throw",
+          "try/except",
+          "when/rescue",
+          "if/error"
+        ],
+        "answer_index": 1,
+        "explanation": "Python uses try and except for exception handling."
+      },
+      {
+        "id": 8,
+        "question": "What is printed by print(2 ** 3)?",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "23"
+        ],
+        "answer_index": 1,
+        "explanation": "** is exponentiation, so 2 cubed is 8."
+      },
+      {
+        "id": 9,
+        "question": "What does range(3) generate when iterated?",
+        "options": [
+          "1, 2, 3",
+          "0, 1, 2",
+          "0, 1, 2, 3",
+          "3 only"
+        ],
+        "answer_index": 1,
+        "explanation": "range(3) starts at zero and stops before three."
+      },
+      {
+        "id": 10,
+        "question": "Which method adds one item to the end of a list?",
+        "options": [
+          "add()",
+          "insert_end()",
+          "append()",
+          "extend_one()"
+        ],
+        "answer_index": 2,
+        "explanation": "list.append(value) adds a single element to the end."
+      }
+    ]
+  },
+  "sql-basics": {
+    "title": "SQL Foundations",
+    "module_id": "sql",
+    "description": "Filtering, aggregation, joins and relational query basics.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which statement retrieves rows from a table?",
+        "options": [
+          "GET",
+          "SELECT",
+          "SHOW ALL",
+          "PULL"
+        ],
+        "answer_index": 1,
+        "explanation": "SELECT retrieves data from one or more tables."
+      },
+      {
+        "id": 2,
+        "question": "Which clause filters rows before grouping?",
+        "options": [
+          "WHERE",
+          "HAVING",
+          "ORDER BY",
+          "LIMIT"
+        ],
+        "answer_index": 0,
+        "explanation": "WHERE filters input rows before GROUP BY aggregates them."
+      },
+      {
+        "id": 3,
+        "question": "Which clause sorts output rows?",
+        "options": [
+          "GROUP BY",
+          "ORDER BY",
+          "HAVING",
+          "JOIN"
+        ],
+        "answer_index": 1,
+        "explanation": "ORDER BY orders rows by one or more expressions."
+      },
+      {
+        "id": 4,
+        "question": "What does COUNT(*) return?",
+        "options": [
+          "Total columns",
+          "Number of rows",
+          "Number of unique columns",
+          "Sum of values"
+        ],
+        "answer_index": 1,
+        "explanation": "COUNT(*) counts rows including rows containing NULL values."
+      },
+      {
+        "id": 5,
+        "question": "Which join returns matching rows from both sides?",
+        "options": [
+          "FULL OUTER JOIN",
+          "CROSS JOIN",
+          "INNER JOIN",
+          "LEFT JOIN"
+        ],
+        "answer_index": 2,
+        "explanation": "INNER JOIN returns rows satisfying the join condition on both sides."
+      },
+      {
+        "id": 6,
+        "question": "What does GROUP BY generally do?",
+        "options": [
+          "Deletes duplicates",
+          "Groups rows for aggregation",
+          "Renames a table",
+          "Creates an index"
+        ],
+        "answer_index": 1,
+        "explanation": "GROUP BY groups matching key values for aggregate calculations."
+      },
+      {
+        "id": 7,
+        "question": "Which predicate checks a missing SQL value?",
+        "options": [
+          "= NULL",
+          "IS NULL",
+          "== NULL",
+          "HAS NULL"
+        ],
+        "answer_index": 1,
+        "explanation": "NULL is checked with IS NULL rather than = NULL."
+      },
+      {
+        "id": 8,
+        "question": "Which function calculates the mean of a numeric column?",
+        "options": [
+          "MEAN()",
+          "AVG()",
+          "MEDIAN()",
+          "CENTER()"
+        ],
+        "answer_index": 1,
+        "explanation": "AVG computes the arithmetic mean of non-NULL values."
+      },
+      {
+        "id": 9,
+        "question": "Which clause filters aggregated groups?",
+        "options": [
+          "ORDER BY",
+          "WHERE",
+          "HAVING",
+          "DISTINCT"
+        ],
+        "answer_index": 2,
+        "explanation": "HAVING filters groups after aggregation."
+      },
+      {
+        "id": 10,
+        "question": "Which keyword removes duplicate result rows?",
+        "options": [
+          "UNIQUE",
+          "DISTINCT",
+          "FILTER",
+          "SINGLE"
+        ],
+        "answer_index": 1,
+        "explanation": "SELECT DISTINCT removes duplicate rows from the output."
+      }
+    ]
+  },
+  "indian-polity": {
+    "title": "Indian Polity — UPSC Practice",
+    "module_id": "india-cse-prelims",
+    "description": "Constitution, institutions and civic governance fundamentals.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which part of the Constitution contains Fundamental Rights?",
+        "options": [
+          "Part II",
+          "Part III",
+          "Part IV",
+          "Part V"
+        ],
+        "answer_index": 1,
+        "explanation": "Fundamental Rights are primarily contained in Part III."
+      },
+      {
+        "id": 2,
+        "question": "Who is the constitutional head of the Union executive?",
+        "options": [
+          "Prime Minister",
+          "President of India",
+          "Chief Justice",
+          "Speaker"
+        ],
+        "answer_index": 1,
+        "explanation": "The President is the constitutional head of the Union executive."
+      },
+      {
+        "id": 3,
+        "question": "Who presides over the Rajya Sabha ex officio?",
+        "options": [
+          "Prime Minister",
+          "President",
+          "Vice-President",
+          "Lok Sabha Speaker"
+        ],
+        "answer_index": 2,
+        "explanation": "India’s Vice-President is the ex officio Chairperson of the Rajya Sabha."
+      },
+      {
+        "id": 4,
+        "question": "Which article establishes the Election Commission of India?",
+        "options": [
+          "Article 21",
+          "Article 32",
+          "Article 324",
+          "Article 356"
+        ],
+        "answer_index": 2,
+        "explanation": "Article 324 vests election superintendence, direction and control in the Election Commission."
+      },
+      {
+        "id": 5,
+        "question": "Directive Principles of State Policy are mainly in which part?",
+        "options": [
+          "Part III",
+          "Part IV",
+          "Part VI",
+          "Part IX"
+        ],
+        "answer_index": 1,
+        "explanation": "Directive Principles of State Policy appear in Part IV."
+      },
+      {
+        "id": 6,
+        "question": "Who appoints the Prime Minister of India?",
+        "options": [
+          "Chief Justice",
+          "President",
+          "Lok Sabha Secretariat",
+          "Election Commission"
+        ],
+        "answer_index": 1,
+        "explanation": "The President appoints the Prime Minister."
+      },
+      {
+        "id": 7,
+        "question": "What is the minimum age for election to the Lok Sabha?",
+        "options": [
+          "18",
+          "21",
+          "25",
+          "30"
+        ],
+        "answer_index": 2,
+        "explanation": "A candidate for the Lok Sabha must be at least 25 years old."
+      },
+      {
+        "id": 8,
+        "question": "Which constitutional amendment introduced Panchayati Raj constitutional provisions?",
+        "options": [
+          "42nd",
+          "44th",
+          "73rd",
+          "86th"
+        ],
+        "answer_index": 2,
+        "explanation": "The 73rd Amendment inserted Part IX concerning Panchayats."
+      },
+      {
+        "id": 9,
+        "question": "Which court is at the apex of the Indian judicial system?",
+        "options": [
+          "High Court",
+          "District Court",
+          "Supreme Court",
+          "Tribunal"
+        ],
+        "answer_index": 2,
+        "explanation": "The Supreme Court of India is the apex court."
+      },
+      {
+        "id": 10,
+        "question": "Which is a money bill introduction rule under the Constitution?",
+        "options": [
+          "Only Rajya Sabha",
+          "Only Lok Sabha",
+          "Either House",
+          "Only joint session"
+        ],
+        "answer_index": 1,
+        "explanation": "A Money Bill may only be introduced in the Lok Sabha."
+      }
+    ]
+  },
+  "indian-history": {
+    "title": "Indian History — UPSC Practice",
+    "module_id": "india-cse-prelims",
+    "description": "Major periods and foundational events of Indian history.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "The Maurya Empire was founded by whom?",
+        "options": [
+          "Ashoka",
+          "Chandragupta Maurya",
+          "Harsha",
+          "Kanishka"
+        ],
+        "answer_index": 1,
+        "explanation": "Chandragupta Maurya established the Maurya dynasty."
+      },
+      {
+        "id": 2,
+        "question": "Which ancient site is known for the Great Bath?",
+        "options": [
+          "Lothal",
+          "Harappa",
+          "Mohenjo-daro",
+          "Dholavira"
+        ],
+        "answer_index": 2,
+        "explanation": "The Great Bath is a well-known structure at Mohenjo-daro."
+      },
+      {
+        "id": 3,
+        "question": "Who wrote the Arthashastra traditionally attributed to Kautilya?",
+        "options": [
+          "Kalidasa",
+          "Kautilya",
+          "Tulsidas",
+          "Banabhatta"
+        ],
+        "answer_index": 1,
+        "explanation": "The Arthashastra is traditionally attributed to Kautilya, also known as Chanakya."
+      },
+      {
+        "id": 4,
+        "question": "The Mughal Empire in India was founded by whom?",
+        "options": [
+          "Akbar",
+          "Humayun",
+          "Babur",
+          "Shah Jahan"
+        ],
+        "answer_index": 2,
+        "explanation": "Babur founded the Mughal Empire following the First Battle of Panipat in 1526."
+      },
+      {
+        "id": 5,
+        "question": "The Battle of Plassey took place in which year?",
+        "options": [
+          "1757",
+          "1857",
+          "1764",
+          "1942"
+        ],
+        "answer_index": 0,
+        "explanation": "The Battle of Plassey was fought in 1757."
+      },
+      {
+        "id": 6,
+        "question": "Who led the Salt March in 1930?",
+        "options": [
+          "Subhas Chandra Bose",
+          "Mahatma Gandhi",
+          "B. R. Ambedkar",
+          "Bal Gangadhar Tilak"
+        ],
+        "answer_index": 1,
+        "explanation": "Mahatma Gandhi led the Salt March as an act of civil disobedience."
+      },
+      {
+        "id": 7,
+        "question": "Which event began in Meerut in May 1857?",
+        "options": [
+          "Non-Cooperation Movement",
+          "Revolt of 1857",
+          "Quit India Movement",
+          "Swadeshi Movement"
+        ],
+        "answer_index": 1,
+        "explanation": "The major uprising of 1857 began among sepoys in Meerut."
+      },
+      {
+        "id": 8,
+        "question": "The Indian National Congress was founded in which year?",
+        "options": [
+          "1857",
+          "1885",
+          "1905",
+          "1919"
+        ],
+        "answer_index": 1,
+        "explanation": "The Indian National Congress was established in 1885."
+      },
+      {
+        "id": 9,
+        "question": "Who was the first President of the Indian National Congress?",
+        "options": [
+          "Dadabhai Naoroji",
+          "W. C. Bonnerjee",
+          "Gopal Krishna Gokhale",
+          "Mahatma Gandhi"
+        ],
+        "answer_index": 1,
+        "explanation": "Womesh Chunder Bonnerjee presided over the first Congress session."
+      },
+      {
+        "id": 10,
+        "question": "Which movement was launched in August 1942?",
+        "options": [
+          "Civil Disobedience Movement",
+          "Quit India Movement",
+          "Khilafat Movement",
+          "Home Rule League"
+        ],
+        "answer_index": 1,
+        "explanation": "The Quit India Movement was launched in August 1942."
+      }
+    ]
+  },
+  "anatomy-basics": {
+    "title": "Human Anatomy Fundamentals",
+    "module_id": "india-medical-mbbs",
+    "description": "Introductory human anatomy concepts for medical learners.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which bone is the longest in the adult human body?",
+        "options": [
+          "Humerus",
+          "Tibia",
+          "Femur",
+          "Radius"
+        ],
+        "answer_index": 2,
+        "explanation": "The femur in the thigh is the longest bone."
+      },
+      {
+        "id": 2,
+        "question": "How many chambers does a typical human heart have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer_index": 2,
+        "explanation": "The human heart has two atria and two ventricles."
+      },
+      {
+        "id": 3,
+        "question": "Which organ lies primarily in the right upper quadrant of the abdomen?",
+        "options": [
+          "Spleen",
+          "Liver",
+          "Urinary bladder",
+          "Left kidney"
+        ],
+        "answer_index": 1,
+        "explanation": "Most of the liver lies in the right upper abdomen."
+      },
+      {
+        "id": 4,
+        "question": "What is the main functional unit of the kidney?",
+        "options": [
+          "Neuron",
+          "Nephron",
+          "Alveolus",
+          "Osteon"
+        ],
+        "answer_index": 1,
+        "explanation": "Nephrons are the kidney units that filter blood and process filtrate."
+      },
+      {
+        "id": 5,
+        "question": "Which body system includes the trachea?",
+        "options": [
+          "Respiratory",
+          "Digestive",
+          "Skeletal",
+          "Endocrine"
+        ],
+        "answer_index": 0,
+        "explanation": "The trachea conducts air in the respiratory system."
+      },
+      {
+        "id": 6,
+        "question": "Which structure connects muscle to bone?",
+        "options": [
+          "Ligament",
+          "Tendon",
+          "Cartilage",
+          "Synovium"
+        ],
+        "answer_index": 1,
+        "explanation": "Tendons connect muscles to bones; ligaments connect bones to bones."
+      },
+      {
+        "id": 7,
+        "question": "Which is the largest part of the human brain?",
+        "options": [
+          "Cerebellum",
+          "Medulla",
+          "Cerebrum",
+          "Midbrain"
+        ],
+        "answer_index": 2,
+        "explanation": "The cerebrum is the largest major brain region."
+      },
+      {
+        "id": 8,
+        "question": "Which blood vessel carries blood from the heart to the lungs?",
+        "options": [
+          "Aorta",
+          "Pulmonary artery",
+          "Pulmonary vein",
+          "Superior vena cava"
+        ],
+        "answer_index": 1,
+        "explanation": "Pulmonary arteries carry blood from the right ventricle toward the lungs."
+      },
+      {
+        "id": 9,
+        "question": "Which structure is the primary site of gas exchange in the lungs?",
+        "options": [
+          "Bronchus",
+          "Trachea",
+          "Alveoli",
+          "Larynx"
+        ],
+        "answer_index": 2,
+        "explanation": "Gas exchange occurs across alveolar and capillary membranes."
+      },
+      {
+        "id": 10,
+        "question": "Which part of the spine is located in the neck?",
+        "options": [
+          "Thoracic",
+          "Lumbar",
+          "Cervical",
+          "Sacral"
+        ],
+        "answer_index": 2,
+        "explanation": "The cervical spine forms the neck region."
+      }
+    ]
+  },
+  "physiology-basics": {
+    "title": "Human Physiology Fundamentals",
+    "module_id": "india-medical-mbbs",
+    "description": "Basic organ functions, homeostasis and body processes.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the main role of red blood cells?",
+        "options": [
+          "Make bile",
+          "Transport oxygen",
+          "Filter urine",
+          "Produce insulin"
+        ],
+        "answer_index": 1,
+        "explanation": "Hemoglobin in red blood cells carries oxygen."
+      },
+      {
+        "id": 2,
+        "question": "Which hormone primarily lowers blood glucose?",
+        "options": [
+          "Glucagon",
+          "Insulin",
+          "Cortisol",
+          "Adrenaline"
+        ],
+        "answer_index": 1,
+        "explanation": "Insulin promotes glucose uptake and storage, lowering blood glucose."
+      },
+      {
+        "id": 3,
+        "question": "Where does most nutrient absorption take place?",
+        "options": [
+          "Esophagus",
+          "Small intestine",
+          "Colon",
+          "Stomach"
+        ],
+        "answer_index": 1,
+        "explanation": "Most nutrient absorption takes place in the small intestine."
+      },
+      {
+        "id": 4,
+        "question": "Which organ produces bile?",
+        "options": [
+          "Gallbladder",
+          "Pancreas",
+          "Liver",
+          "Spleen"
+        ],
+        "answer_index": 2,
+        "explanation": "The liver produces bile; the gallbladder stores and concentrates it."
+      },
+      {
+        "id": 5,
+        "question": "Which brain structure is important for balance and coordination?",
+        "options": [
+          "Cerebellum",
+          "Hypothalamus",
+          "Medulla only",
+          "Hippocampus"
+        ],
+        "answer_index": 0,
+        "explanation": "The cerebellum helps coordinate movement and balance."
+      },
+      {
+        "id": 6,
+        "question": "What is the principal function of platelets?",
+        "options": [
+          "Transport oxygen",
+          "Blood clotting",
+          "Carry hormones",
+          "Digest food"
+        ],
+        "answer_index": 1,
+        "explanation": "Platelets help form hemostatic plugs during blood clotting."
+      },
+      {
+        "id": 7,
+        "question": "Which part of the nephron is a major site of filtration?",
+        "options": [
+          "Loop of Henle",
+          "Glomerulus",
+          "Collecting duct",
+          "Distal tubule"
+        ],
+        "answer_index": 1,
+        "explanation": "Filtration occurs across the glomerular capillaries into Bowman’s capsule."
+      },
+      {
+        "id": 8,
+        "question": "Which hormone regulates water retention via kidney collecting ducts?",
+        "options": [
+          "ADH (vasopressin)",
+          "Thyroxine",
+          "Melatonin",
+          "Calcitonin"
+        ],
+        "answer_index": 0,
+        "explanation": "ADH increases renal water reabsorption in the collecting ducts."
+      },
+      {
+        "id": 9,
+        "question": "During inhalation at rest, the diaphragm generally does what?",
+        "options": [
+          "Relaxes and rises",
+          "Contracts and flattens",
+          "Stops moving",
+          "Closes the trachea"
+        ],
+        "answer_index": 1,
+        "explanation": "Diaphragm contraction increases chest cavity volume, drawing air inward."
+      },
+      {
+        "id": 10,
+        "question": "Which region of the heart normally acts as the primary pacemaker?",
+        "options": [
+          "AV node",
+          "SA node",
+          "Aortic valve",
+          "Left ventricle"
+        ],
+        "answer_index": 1,
+        "explanation": "The sinoatrial node ordinarily initiates each heartbeat."
+      }
+    ]
+  }
+}
