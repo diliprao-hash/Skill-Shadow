@@ -1,6 +1,3 @@
-/* SkillShadow Career Roadmaps — no third-party JS dependencies.
-   Data source: /career-roadmaps/roadmaps.json.
-   Progress is stored locally PER CAREER, not in the SkillShadow backend. */
 (() => {
   'use strict';
   const dataUrl = '/career-roadmaps/roadmaps.json';
