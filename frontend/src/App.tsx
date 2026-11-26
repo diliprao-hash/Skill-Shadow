@@ -15,8 +15,9 @@ import {
 
 import CareerPaths, { scorePercent, type Career, type Profile } from './CareerPaths';
 import './style.css';
+import Signature, { SignatureCards, isSignature, recordAssessment, type SignaturePage } from './shadow/Signature';
 
-type Page = 'home' | 'careers' | 'jobs' | 'saved' | 'profile' | 'auth'|'discovery';
+type Page = 'home' | 'careers' | 'jobs' | 'saved' | 'profile' | 'auth'|'discovery' | SignaturePage;
 type Job = {
   job_id: number;
   title: string;
@@ -57,6 +58,7 @@ function App() {
   const [mobile, setMobile] = useState(false);
   const [token, setToken] = useState(() => localStorage.getItem('skillshadow_token') || '');
   const [user, setUser] = useState<User | null>(null);
+  const signatureScope = user && token ? 'account-' + encodeURIComponent(user.email.toLowerCase()) : token ? 'pending' : 'guest';
   const [profile, setProfile] = useState<Profile>(initialProfile);
   const [overview, setOverview] = useState<Overview | null>(null);
   const [skillSearch, setSkillSearch] = useState('');
@@ -245,7 +247,10 @@ return (
       ['jobs', 'Opportunities'],
       ['saved', 'Saved'],
       ['profile', 'My Profile'],
-      ['discovery', 'Discovery Lab']
+      ['discovery', 'Discovery Lab'],
+      ['shadowlife', 'ShadowLife'],
+      ['shadowtwin', 'ShadowTwin'],
+      ['shadowverse', 'ShadowVerse']
     ] as [Page, string][]).map(([p, label]) => (
       <button key={p} onClick={() => navigate(p)}>
         {p === 'discovery' && <FlaskConical size={17} />}
@@ -294,19 +299,19 @@ return (
               <div><span className="ss-stats-icon"><Database size={20}/></span><strong>{compact(overview?.companies)}</strong><small>Companies in data</small></div>
             </section>
             <section className="ss-features ss-page-wrap">
-              <div className="ss-section-heading"><div><span className="ss-small-label">EXPLORE WHAT'S POSSIBLE</span><h2>Make your next move<br/><em>an informed one.</em></h2></div><p>Career decisions are big. We turn complex information into meaningful next steps.</p></div>
-              <div className="ss-feature-grid">
-                <button className="ss-feature-card f-one" onClick={() => navigate('careers')}><span className="ss-feature-number">01 / DISCOVER</span><span className="ss-feature-symbol"><Compass size={30}/></span><h3>Find your fit.</h3><p>Explore careers aligned with your skills, interests, and education.</p><span className="ss-feature-link">Explore paths <ArrowUpRight size={17}/></span></button>
-                <button className="ss-feature-card f-two" onClick={() => navigate('jobs')}><span className="ss-feature-number">02 / EXPLORE</span><span className="ss-feature-symbol"><BriefcaseBusiness size={30}/></span><h3>See opportunities.</h3><p>Discover job listings, organizations, locations, and available salary data.</p><span className="ss-feature-link">View opportunities <ArrowUpRight size={17}/></span></button>
-                <a className="ss-feature-card f-three" href="/roadmap.html"><span className="ss-feature-number">03 / GROW</span><span className="ss-feature-symbol"><Route size={30}/></span><h3>Chart your course.</h3><p>Visit your learning roadmap and turn a destination into a plan.</p><span className="ss-feature-link">Open roadmap <ArrowUpRight size={17}/></span></a>
-              </div>
+              <div className="ss-section-heading"><div><span className="ss-small-label">THE SKILLSHADOW EXPERIENCE</span><h2>Live your career.<br/><em>Explore who you could become.</em></h2></div><p>Try a workplace mission, build your evidence profile, and compare possible futures.</p></div>
+              <SignatureCards navigate={navigate}/>
+
             </section>
             <section className="ss-journey ss-page-wrap"><div className="ss-journey-left"><span className="ss-small-label">BUILT AROUND YOU</span><h2>Not just where<br/>you could go.<br/><em>How to get there.</em></h2><button className="ss-btn ss-btn-primary" onClick={() => navigate('profile')}>Start with your skills <ArrowRight size={17}/></button></div><div className="ss-steps">
               {[['01','Show us your skills','Bring what you already know — every skill counts.'],['02','See matched career paths','Review recommendations calculated by the backend.'],['03','Explore your next move','Review occupation details, skill gaps, and opportunities.']].map(([n,h,p]) => <div className="ss-step" key={n}><span>{n}</span><div><h3>{h}</h3><p>{p}</p></div><Check size={17}/></div>)}
             </div></section>
           </>}
 
-{page === 'discovery' && <DiscoveryLab />}
+{page === 'discovery' && <DiscoveryLab onCompleted={(result, title) => {
+  if (signatureScope !== 'pending' && !recordAssessment(signatureScope, {id:result.category_id,title,correct:result.correct,total:result.total,at:new Date().toISOString()})) notify('Assessment completed, but local evidence could not be saved.', true);
+}} />}
+          {isSignature(page) && (signatureScope === 'pending' ? <div className="ss-page-wrap ss-interior-page"><p>Loading your account…</p></div> : <Signature key={`${page}:${signatureScope}`} page={page} scope={signatureScope} profile={profile} navigate={navigate}/>)}
 
           {page === 'careers' && <CareerPaths profile={profile} updateProfile={updateProfile} careers={careers} loading={careersLoading} error={careersError} suggestions={suggestions} skillSearch={skillSearch} setSkillSearch={setSkillSearch} addSkill={addSkill} removeSkill={removeSkill} savedCodes={savedCodes} openCareer={openCareer} toggleSaved={toggleSaved} saveProfile={saveProfile} isLoggedIn={Boolean(token)}/>}
 
