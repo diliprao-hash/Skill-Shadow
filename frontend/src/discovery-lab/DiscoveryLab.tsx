@@ -33,10 +33,10 @@ function Glyph({ name, size = 22 }: { name: GlyphName | string; size?: number })
 const featureCards = [
   { icon: 'bolt', title: 'Small challenges', desc: 'Learn about your approach to problems.' },
   { icon: 'chart', title: 'Clear feedback', desc: 'Review your answers and reasoning.' },
-  { icon: 'target', title: 'Career exploration', desc: 'Connect results to SkillShadow later.' },
+  { icon: 'target', title: 'Career exploration', desc: 'Review new results in your ShadowTwin evidence profile.' },
 ]
 
-export default function DiscoveryLab() {
+export default function DiscoveryLab({onCompleted}: {onCompleted?: (result: ScoreResult, title: string) => void} = {}) {
   const [screen, setScreen] = useState<Screen>('home')
   const [categories, setCategories] = useState<Category[]>([])
   const [categoryId, setCategoryId] = useState('logical_reasoning')
@@ -85,6 +85,7 @@ export default function DiscoveryLab() {
     try {
       const data = await discoveryApi.submit(categoryId, answers)
       setResult(data)
+      onCompleted?.(data, selectedCategory?.name ?? categoryId)
       setScreen('results')
     } catch (err) { setError(errorText(err)) }
     finally { setBusy(false) }
@@ -200,7 +201,7 @@ export default function DiscoveryLab() {
             <div className="ss-results-hero"><div><span className="ss-eyebrow"><span className="ss-eyebrow-dot"/> CHALLENGE COMPLETE</span><h1>Your results are in<span className="ss-asterisk">✳</span></h1><p>Nice work completing {selectedCategory?.name ?? 'the assessment'}. Explore the feedback below to understand what each question tested.</p><div className="ss-results-metrics"><div><strong>{result.correct} / {result.total}</strong><span>Correct answers</span></div><div><strong>{result.total - result.correct}</strong><span>To revisit</span></div></div></div><div className="ss-score-disc" style={{ '--score': `${result.score_percent}%` } as CSSProperties}><div><strong>{result.score_percent}<small>%</small></strong><span>PRACTICE SCORE</span></div></div></div>
             <div className="ss-review-heading"><div><span className="ss-overline">LOOK BACK & LEARN</span><h2>Question-by-question review</h2></div><span>{result.review.length} questions</span></div>
             <div className="ss-review-list">{result.review.map((entry, index) => <article className="ss-review-card" key={entry.question_id}><div className="ss-review-icon" data-correct={entry.is_correct}><Glyph name={entry.is_correct ? 'check' : 'x'} size={18}/></div><div><div className="ss-review-meta">QUESTION {String(index+1).padStart(2,'0')} · {entry.is_correct ? 'CORRECT' : 'NEEDS REVIEW'}</div><h3>{entry.question}</h3><p><strong>Correct answer:</strong> {entry.correct_answer}</p><p className="ss-explanation">{entry.explanation}</p></div></article>)}</div>
-            <div className="ss-next-card"><div className="ss-next-icon"><Glyph name="sparkles" size={25}/></div><div><h3>What's next for SkillShadow?</h3><p>Your career recommendation integration is the next development phase. Assessments alone do not determine career suitability; we'll combine future results with your skills, interests, education and O*NET occupation data.</p><small>{result.disclaimer}</small></div></div>
+            <div className="ss-next-card"><div className="ss-next-icon"><Glyph name="sparkles" size={25}/></div><div><h3>Keep building your evidence.</h3><p>Your latest result is recorded in ShadowTwin on this browser when local storage is available. Assessments alone do not determine career suitability.</p><small>{result.disclaimer}</small></div></div>
             <div className="ss-result-actions"><button type="button" className="ss-secondary" onClick={() => void startAssessment(categoryId)} disabled={busy}><Glyph name="rotate" size={16}/> Try again</button><button type="button" className="ss-primary" onClick={goHome}>Explore Discovery Lab <Glyph name="arrow" size={17}/></button></div>
           </main>
         )}
