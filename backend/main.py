@@ -384,10 +384,34 @@ def career_rank(occupation, selected, interests='', education='',
         'score_disclaimer': 'Relative exploration score, not likelihood of hiring or eligibility.',
     }
 
+# Read job records in bounded batches instead of caching the entire CSV.
+JOB_COLUMNS = [
+    'job_id', 'title', 'company_name', 'location',
+    'formatted_work_type', 'annual_salary_usd_for_comparison',
+    'job_posting_url'
+]
+JOB_TEXT_COLUMNS = ['title', 'company_name', 'location',
+                    'formatted_work_type', 'job_posting_url']
+
+
+def job_chunks():
+    return pd.read_csv(
+        BASE / 'data/jobs.csv', usecols=JOB_COLUMNS,
+        dtype={column: str for column in JOB_TEXT_COLUMNS},
+        chunksize=5000
+    )
+
+
 @lru_cache(maxsize=1)
-def job_data():
-    df=pd.read_csv(BASE/'data/jobs.csv',usecols=['job_id','title','company_name','location','formatted_work_type','annual_salary_usd_for_comparison','job_posting_url'],low_memory=False)
-    return df.fillna({'title':'','company_name':'','location':'','formatted_work_type':'','job_posting_url':''})
+def job_summary():
+    total = 0
+    companies = set()
+    with job_chunks() as reader:
+        for chunk in reader:
+            total += len(chunk)
+            companies.update(chunk['company_name'].fillna('').unique())
+    return total, len(companies)
+
 
 @app.get('/api/health')
 def health(): return {'status':'ok'}
@@ -424,8 +448,11 @@ def skills(q:str='',limit:int=30):
     return [x for x in catalog if q.casefold() in x.casefold()][:limit]
 @app.get('/api/overview')
 def overview():
-    occ,_=occupation_data();jobs=job_data()
-    return {'occupations':len(occ),'skills':len(occupation_data()[1]),'historical_jobs':len(jobs),'companies':int(jobs.company_name.nunique())}
+    occ, catalog = occupation_data()
+    total_jobs, total_companies = job_summary()
+    return {'occupations': len(occ), 'skills': len(catalog),
+            'historical_jobs': total_jobs, 'companies': total_companies}
+
 @app.get('/api/careers')
 def careers(skills:str='',q:str='',limit:int=24,interests:str='',education:str=''):
     occ,_=occupation_data()
@@ -446,18 +473,35 @@ def career_detail(code:str):
     if not o:raise HTTPException(404,'Occupation not found')
     return {k:v for k,v in o.items() if k!='all'}
 @app.get('/api/jobs')
-def jobs(q:str='',location:str='',limit:int=30):
-    df=job_data()
-    if q:df=df[df.title.str.contains(re.escape(q),case=False,na=False)]
-    if location:df=df[df.location.str.contains(re.escape(location),case=False,na=False)]
-    count=len(df);df=df.head(min(max(limit,1),100)).copy()
-    df=df.replace({float('nan'):None})
-    records=[]
-    for row in df.to_dict('records'):
-        salary=row['annual_salary_usd_for_comparison']
-        if not isinstance(salary,(int,float)) or not math.isfinite(salary):row['annual_salary_usd_for_comparison']=None
-        records.append(row)
-    return {'total':count,'items':records}
+def jobs(q: str = '', location: str = '', limit: int = 30):
+    limit = min(max(limit, 1), 100)
+    count = 0
+    records = []
+    with job_chunks() as reader:
+        for chunk in reader:
+            if q:
+                chunk = chunk[chunk['title'].str.contains(
+                    q, case=False, na=False, regex=False)]
+            if location:
+                chunk = chunk[chunk['location'].str.contains(
+                    location, case=False, na=False, regex=False)]
+            count += len(chunk)
+            remaining = limit - len(records)
+            if remaining <= 0:
+                continue
+            selected = chunk.head(remaining).copy()
+            selected = selected.fillna({c: '' for c in JOB_TEXT_COLUMNS})
+            selected = selected.astype(object).where(pd.notna(selected), None)
+            for row in selected.to_dict('records'):
+                try:
+                    salary = float(row['annual_salary_usd_for_comparison'])
+                    row['annual_salary_usd_for_comparison'] = (
+                        salary if math.isfinite(salary) else None)
+                except (ValueError, TypeError, OverflowError):
+                    row['annual_salary_usd_for_comparison'] = None
+                records.append(row)
+    return {'total': count, 'items': records}
+
 @app.get('/api/saved')
 def saved(u:User=Depends(current_user),s:Session=Depends(db)):
     occ=occupation_data()[0]
